@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "C:\\Users\\saridza\\.gradle\\daemon\\9.7.1\\de.katharina.verbesfrancais.app-debug-3:\\layout_activity_stats.xml.flat",
+        "source": "C:\\Users\\saridza\\.gradle\\daemon\\9.7.1\\de.katharina.verbesfrancais.app-main-5:\\layout\\activity_stats.xml"
+    },
+    {
+        "merged": "C:\\Users\\saridza\\.gradle\\daemon\\9.7.1\\de.katharina.verbesfrancais.app-debug-3:\\layout_activity_practice.xml.flat",
+        "source": "C:\\Users\\saridza\\.gradle\\daemon\\9.7.1\\de.katharina.verbesfrancais.app-main-5:\\layout\\activity_practice.xml"
+    },
+    {
+        "merged": "C:\\Users\\saridza\\.gradle\\daemon\\9.7.1\\de.katharina.verbesfrancais.app-debug-3:\\layout_item_verb_form.xml.flat",
+        "source": "C:\\Users\\saridza\\.gradle\\daemon\\9.7.1\\de.katharina.verbesfrancais.app-main-5:\\layout\\item_verb_form.xml"
+    },
+    {
+        "merged": "de.katharina.verbesfrancais.app-debug-3:/layout_activity_stats.xml.flat",
+        "source": "de.katharina.verbesfrancais.app-main-5:/layout/activity_stats.xml"
+    },
+    {
+        "merged": "C:\\Users\\saridza\\.gradle\\daemon\\9.7.1\\de.katharina.verbesfrancais.app-debug-3:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\saridza\\.gradle\\daemon\\9.7.1\\de.katharina.verbesfrancais.app-main-5:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "de.katharina.verbesfrancais.app-debug-3:/layout_activity_main.xml.flat",
+        "source": "de.katharina.verbesfrancais.app-main-5:/layout/activity_main.xml"
+    },
+    {
+        "merged": "de.katharina.verbesfrancais.app-debug-3:/layout_activity_context_practice.xml.flat",
+        "source": "de.katharina.verbesfrancais.app-main-5:/layout/activity_context_practice.xml"
+    },
+    {
+        "merged": "C:\\Users\\saridza\\.gradle\\daemon\\9.7.1\\de.katharina.verbesfrancais.app-debug-3:\\layout_activity_context_practice.xml.flat",
+        "source": "C:\\Users\\saridza\\.gradle\\daemon\\9.7.1\\de.katharina.verbesfrancais.app-main-5:\\layout\\activity_context_practice.xml"
+    },
+    {
+        "merged": "C:\\Users\\saridza\\.gradle\\daemon\\9.7.1\\de.katharina.verbesfrancais.app-debug-3:\\layout_activity_verb_list.xml.flat",
+        "source": "C:\\Users\\saridza\\.gradle\\daemon\\9.7.1\\de.katharina.verbesfrancais.app-main-5:\\layout\\activity_verb_list.xml"
+    },
+    {
+        "merged": "de.katharina.verbesfrancais.app-debug-3:/layout_activity_verb_list.xml.flat",
+        "source": "de.katharina.verbesfrancais.app-main-5:/layout/activity_verb_list.xml"
+    },
+    {
+        "merged": "de.katharina.verbesfrancais.app-debug-3:/layout_activity_practice.xml.flat",
+        "source": "de.katharina.verbesfrancais.app-main-5:/layout/activity_practice.xml"
+    }
+]

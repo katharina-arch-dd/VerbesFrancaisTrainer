@@ -1,0 +1,5 @@
+de.katharina.verbesfrancais.test.app-updated_navigation_xml-0 C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\build\generated\updated_navigation_xml\debugAndroidTest
+de.katharina.verbesfrancais.test.app-packageDebugAndroidTestResources-1 C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\build\intermediates\incremental\debugAndroidTest\packageDebugAndroidTestResources\merged.dir
+de.katharina.verbesfrancais.test.app-packageDebugAndroidTestResources-2 C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\build\intermediates\incremental\debugAndroidTest\packageDebugAndroidTestResources\stripped.dir
+de.katharina.verbesfrancais.test.app-debugAndroidTest-3 C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
+gradleHome-0 C:\Users\saridza\.gradle
