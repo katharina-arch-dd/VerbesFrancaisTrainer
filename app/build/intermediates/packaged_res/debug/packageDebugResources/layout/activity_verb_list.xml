@@ -3,24 +3,34 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp"
+    android:padding="20dp"
     android:fitsSystemWindows="true">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Verben und Formen"
-        android:textSize="24sp"
+        android:textColor="@color/lemonde_text_primary"
+        android:textSize="26sp"
         android:textStyle="bold" />
+
+    <View
+        android:layout_width="60dp"
+        android:layout_height="4dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/lemonde_yellow" />
 
     <Spinner
         android:id="@+id/spinnerTense"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp" />
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_lemonde_input"
+        android:padding="12dp" />
 
     <Button
         android:id="@+id/buttonPracticeFiltered"
+        style="@style/LeMonde.Button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"

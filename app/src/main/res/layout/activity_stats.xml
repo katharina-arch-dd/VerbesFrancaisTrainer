@@ -9,34 +9,117 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="24dp">
+        android:padding="20dp">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Statistik"
+            android:textColor="@color/lemonde_text_primary"
             android:textSize="28sp"
             android:textStyle="bold" />
 
-        <TextView
-            android:id="@+id/textOverview"
+        <View
+            android:layout_width="60dp"
+            android:layout_height="4dp"
+            android:layout_marginTop="6dp"
+            android:background="@color/lemonde_yellow" />
+
+        <!-- Recommendation & Voice Card -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_lemonde_card_accent"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EMPFEHLUNG &amp; ANALYSE"
+                android:textColor="@color/lemonde_text_secondary"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textRecommendation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:lineSpacingExtra="4dp"
+                android:textColor="@color/lemonde_text_primary"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/buttonSpeakRecommendation"
+                style="@style/LeMonde.Button.Accent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="🔊 Zusammenfassung &amp; Empfehlung vorlesen" />
+        </LinearLayout>
+
+        <!-- Stats Overview Card -->
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:textSize="18sp" />
+            android:background="@drawable/bg_lemonde_card"
+            android:orientation="vertical"
+            android:padding="20dp">
 
-        <TextView
-            android:id="@+id/textTenseStats"
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ÜBERSICHT"
+                android:textColor="@color/lemonde_text_secondary"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textOverview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:lineSpacingExtra="4dp"
+                android:textColor="@color/lemonde_text_primary"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <!-- Tense Stats Card -->
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="24dp"
-            android:textSize="18sp" />
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bg_lemonde_card"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FEHLERRATE NACH ZEITFORM"
+                android:textColor="@color/lemonde_text_secondary"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textTenseStats"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:lineSpacingExtra="4dp"
+                android:textColor="@color/lemonde_text_primary"
+                android:textSize="15sp" />
+        </LinearLayout>
 
         <Button
             android:id="@+id/buttonWeakestForms"
+            style="@style/LeMonde.Button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
+            android:layout_marginTop="20dp"
             android:text="Meine 20 schwächsten Formen üben" />
     </LinearLayout>
 </ScrollView>

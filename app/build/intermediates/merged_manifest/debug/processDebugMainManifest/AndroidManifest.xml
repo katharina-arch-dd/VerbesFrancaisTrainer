@@ -8,6 +8,8 @@
         android:minSdkVersion="26"
         android:targetSdkVersion="37" />
 
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
     <queries>
         <intent>
             <action android:name="android.intent.action.TTS_SERVICE" />
@@ -25,7 +27,9 @@
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
         android:extractNativeLibs="false"
+        android:icon="@mipmap/ic_launcher"
         android:label="Verbes Français"
+        android:roundIcon="@mipmap/ic_launcher_round"
         android:testOnly="true"
         android:theme="@style/Theme.VerbesFrancais" >
         <activity

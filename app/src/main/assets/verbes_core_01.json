@@ -1,0 +1,4413 @@
+{
+  "version": 1,
+  "tenses": [
+    "present",
+    "passe_compose",
+    "imparfait",
+    "futur_simple",
+    "conditionnel_present",
+    "subjonctif_present"
+  ],
+  "verbs": [
+    {
+      "importKey": "être",
+      "infinitive": "être",
+      "translationDe": "sein",
+      "group": "irregular",
+      "auxiliary": "être",
+      "reflexive": false,
+      "forms": [
+        {
+          "importKey": "être|present|je",
+          "tense": "present",
+          "person": "je",
+          "form": "suis",
+          "irregular": true
+        },
+        {
+          "importKey": "être|present|tu",
+          "tense": "present",
+          "person": "tu",
+          "form": "es",
+          "irregular": true
+        },
+        {
+          "importKey": "être|present|il/elle/on",
+          "tense": "present",
+          "person": "il/elle/on",
+          "form": "est",
+          "irregular": true
+        },
+        {
+          "importKey": "être|present|nous",
+          "tense": "present",
+          "person": "nous",
+          "form": "sommes",
+          "irregular": true
+        },
+        {
+          "importKey": "être|present|vous",
+          "tense": "present",
+          "person": "vous",
+          "form": "êtes",
+          "irregular": true
+        },
+        {
+          "importKey": "être|present|ils/elles",
+          "tense": "present",
+          "person": "ils/elles",
+          "form": "sont",
+          "irregular": true
+        },
+        {
+          "importKey": "être|imparfait|je",
+          "tense": "imparfait",
+          "person": "je",
+          "form": "étais",
+          "irregular": true
+        },
+        {
+          "importKey": "être|imparfait|tu",
+          "tense": "imparfait",
+          "person": "tu",
+          "form": "étais",
+          "irregular": true
+        },
+        {
+          "importKey": "être|imparfait|il/elle/on",
+          "tense": "imparfait",
+          "person": "il/elle/on",
+          "form": "était",
+          "irregular": true
+        },
+        {
+          "importKey": "être|imparfait|nous",
+          "tense": "imparfait",
+          "person": "nous",
+          "form": "étions",
+          "irregular": true
+        },
+        {
+          "importKey": "être|imparfait|vous",
+          "tense": "imparfait",
+          "person": "vous",
+          "form": "étiez",
+          "irregular": true
+        },
+        {
+          "importKey": "être|imparfait|ils/elles",
+          "tense": "imparfait",
+          "person": "ils/elles",
+          "form": "étaient",
+          "irregular": true
+        },
+        {
+          "importKey": "être|futur_simple|je",
+          "tense": "futur_simple",
+          "person": "je",
+          "form": "serai",
+          "irregular": true
+        },
+        {
+          "importKey": "être|futur_simple|tu",
+          "tense": "futur_simple",
+          "person": "tu",
+          "form": "seras",
+          "irregular": true
+        },
+        {
+          "importKey": "être|futur_simple|il/elle/on",
+          "tense": "futur_simple",
+          "person": "il/elle/on",
+          "form": "sera",
+          "irregular": true
+        },
+        {
+          "importKey": "être|futur_simple|nous",
+          "tense": "futur_simple",
+          "person": "nous",
+          "form": "serons",
+          "irregular": true
+        },
+        {
+          "importKey": "être|futur_simple|vous",
+          "tense": "futur_simple",
+          "person": "vous",
+          "form": "serez",
+          "irregular": true
+        },
+        {
+          "importKey": "être|futur_simple|ils/elles",
+          "tense": "futur_simple",
+          "person": "ils/elles",
+          "form": "seront",
+          "irregular": true
+        },
+        {
+          "importKey": "être|conditionnel_present|je",
+          "tense": "conditionnel_present",
+          "person": "je",
+          "form": "serais",
+          "irregular": true
+        },
+        {
+          "importKey": "être|conditionnel_present|tu",
+          "tense": "conditionnel_present",
+          "person": "tu",
+          "form": "serais",
+          "irregular": true
+        },
+        {
+          "importKey": "être|conditionnel_present|il/elle/on",
+          "tense": "conditionnel_present",
+          "person": "il/elle/on",
+          "form": "serait",
+          "irregular": true
+        },
+        {
+          "importKey": "être|conditionnel_present|nous",
+          "tense": "conditionnel_present",
+          "person": "nous",
+          "form": "serions",
+          "irregular": true
+        },
+        {
+          "importKey": "être|conditionnel_present|vous",
+          "tense": "conditionnel_present",
+          "person": "vous",
+          "form": "seriez",
+          "irregular": true
+        },
+        {
+          "importKey": "être|conditionnel_present|ils/elles",
+          "tense": "conditionnel_present",
+          "person": "ils/elles",
+          "form": "seraient",
+          "irregular": true
+        },
+        {
+          "importKey": "être|subjonctif_present|que je",
+          "tense": "subjonctif_present",
+          "person": "que je",
+          "form": "sois",
+          "irregular": true
+        },
+        {
+          "importKey": "être|subjonctif_present|que tu",
+          "tense": "subjonctif_present",
+          "person": "que tu",
+          "form": "sois",
+          "irregular": true
+        },
+        {
+          "importKey": "être|subjonctif_present|qu'il/elle/on",
+          "tense": "subjonctif_present",
+          "person": "qu'il/elle/on",
+          "form": "soit",
+          "irregular": true
+        },
+        {
+          "importKey": "être|subjonctif_present|que nous",
+          "tense": "subjonctif_present",
+          "person": "que nous",
+          "form": "soyons",
+          "irregular": true
+        },
+        {
+          "importKey": "être|subjonctif_present|que vous",
+          "tense": "subjonctif_present",
+          "person": "que vous",
+          "form": "soyez",
+          "irregular": true
+        },
+        {
+          "importKey": "être|subjonctif_present|qu'ils/elles",
+          "tense": "subjonctif_present",
+          "person": "qu'ils/elles",
+          "form": "soient",
+          "irregular": true
+        },
+        {
+          "importKey": "être|passe_compose|je",
+          "tense": "passe_compose",
+          "person": "je",
+          "form": "suis été",
+          "irregular": true
+        },
+        {
+          "importKey": "être|passe_compose|tu",
+          "tense": "passe_compose",
+          "person": "tu",
+          "form": "es été",
+          "irregular": true
+        },
+        {
+          "importKey": "être|passe_compose|il/elle/on",
+          "tense": "passe_compose",
+          "person": "il/elle/on",
+          "form": "est été",
+          "irregular": true
+        },
+        {
+          "importKey": "être|passe_compose|nous",
+          "tense": "passe_compose",
+          "person": "nous",
+          "form": "sommes été",
+          "irregular": true
+        },
+        {
+          "importKey": "être|passe_compose|vous",
+          "tense": "passe_compose",
+          "person": "vous",
+          "form": "êtes été",
+          "irregular": true
+        },
+        {
+          "importKey": "être|passe_compose|ils/elles",
+          "tense": "passe_compose",
+          "person": "ils/elles",
+          "form": "sont été",
+          "irregular": true
+        }
+      ],
+      "examples": [
+        {
+          "sentenceFr": "Je suis content de te voir.",
+          "sentenceDe": "Ich bin froh, dich zu sehen.",
+          "tense": "present",
+          "context": "Gefühle",
+          "level": "B1",
+          "importKey": "être|present|Je suis content de te voi"
+        },
+        {
+          "sentenceFr": "Nous sommes en retard.",
+          "sentenceDe": "Wir sind zu spät.",
+          "tense": "present",
+          "context": "Alltag",
+          "level": "B1",
+          "importKey": "être|present|Nous sommes en retard."
+        },
+        {
+          "sentenceFr": "Hier, j'ai été au cinéma.",
+          "sentenceDe": "Gestern war ich im Kino.",
+          "tense": "passe_compose",
+          "context": "Freizeit",
+          "level": "B1",
+          "importKey": "être|passe_compose|Hier, j'ai été au cinéma."
+        },
+        {
+          "sentenceFr": "Elle a été malade la semaine dernière.",
+          "sentenceDe": "Sie war letzte Woche krank.",
+          "tense": "passe_compose",
+          "context": "Gesundheit",
+          "level": "B1",
+          "importKey": "être|passe_compose|Elle a été malade la sema"
+        },
+        {
+          "sentenceFr": "Quand j'étais petit, j'habitais à Dortmund.",
+          "sentenceDe": "Als ich klein war, wohnte ich in Dortmund.",
+          "tense": "imparfait",
+          "context": "Vergangenheit",
+          "level": "B1",
+          "importKey": "être|imparfait|Quand j'étais petit, j'ha"
+        },
+        {
+          "sentenceFr": "Il était difficile de comprendre la leçon.",
+          "sentenceDe": "Es war schwierig, die Lektion zu verstehen.",
+          "tense": "imparfait",
+          "context": "Schule",
+          "level": "B1",
+          "importKey": "être|imparfait|Il était difficile de com"
+        },
+        {
+          "sentenceFr": "Demain, je serai à Paris.",
+          "sentenceDe": "Morgen werde ich in Paris sein.",
+          "tense": "futur_simple",
+          "context": "Reisen",
+          "level": "B1",
+          "importKey": "être|futur_simple|Demain, je serai à Paris."
+        },
+        {
+          "sentenceFr": "Nous serons libres ce week-end.",
+          "sentenceDe": "Wir werden am Wochenende frei haben.",
+          "tense": "futur_simple",
+          "context": "Pläne",
+          "level": "B1",
+          "importKey": "être|futur_simple|Nous serons libres ce wee"
+        },
+        {
+          "sentenceFr": "Je serais heureux de t'aider.",
+          "sentenceDe": "Ich wäre glücklich, dir zu helfen.",
+          "tense": "conditionnel_present",
+          "context": "Höflichkeit",
+          "level": "B1",
+          "importKey": "être|conditionnel_present|Je serais heureux de t'ai"
+        },
+        {
+          "sentenceFr": "Ce serait intéressant d'y aller.",
+          "sentenceDe": "Es wäre interessant, dorthin zu gehen.",
+          "tense": "conditionnel_present",
+          "context": "Diskussion",
+          "level": "B1",
+          "importKey": "être|conditionnel_present|Ce serait intéressant d'y"
+        },
+        {
+          "sentenceFr": "Il faut que je sois à l'heure.",
+          "sentenceDe": "Ich muss pünktlich sein.",
+          "tense": "subjonctif_present",
+          "context": "Pflicht",
+          "level": "B1",
+          "importKey": "être|subjonctif_present|Il faut que je sois à l'h"
+        },
+        {
+          "sentenceFr": "Bien qu'elle soit fatiguée, elle continue.",
+          "sentenceDe": "Obwohl sie müde ist, macht sie weiter.",
+          "tense": "subjonctif_present",
+          "context": "Gefühle",
+          "level": "B1",
+          "importKey": "être|subjonctif_present|Bien qu'elle soit fatigué"
+        }
+      ],
+      "grammarInfo": {
+        "present": {
+          "tenseName": "Présent",
+          "rule": "Wird für gegenwärtige Zustände, Eigenschaften und Identitäten verwendet.",
+          "formation": "Unregelmäßige Formen im Präsens.",
+          "table": {
+            "je": "je suis",
+            "tu": "tu es",
+            "il/elle/on": "il/elle/on est",
+            "nous": "nous sommes",
+            "vous": "vous êtes",
+            "ils/elles": "ils/elles sont"
+          }
+        },
+        "passe_compose": {
+          "tenseName": "Passé composé",
+          "rule": "Für abgeschlossene Handlungen und vergangene Zustände.",
+          "formation": "Hilfsverb avoir + Partizip Perfekt 'été'.",
+          "table": {
+            "je": "j'ai été",
+            "tu": "tu as été",
+            "il/elle/on": "il/elle/on a été",
+            "nous": "nous avons été",
+            "vous": "vous avez été",
+            "ils/elles": "ils/elles ont été"
+          }
+        },
+        "imparfait": {
+          "tenseName": "Imparfait",
+          "rule": "Für dauerhafte Zustände, Beschreibungen und Gewohnheiten in der Vergangenheit.",
+          "formation": "Stamm ét- + Endungen (-ais, -ais, -ait, -ions, -iez, -aient).",
+          "table": {
+            "je": "j'étais",
+            "tu": "tu étais",
+            "il/elle/on": "il/elle/on était",
+            "nous": "nous étions",
+            "vous": "vous étiez",
+            "ils/elles": "ils/elles étaient"
+          }
+        },
+        "futur_simple": {
+          "tenseName": "Futur simple",
+          "rule": "Für zukünftige Handlungen, Vorhersagen und Absichten.",
+          "formation": "Stamm ser- + Endungen (-ai, -as, -a, -ons, -ez, -ont).",
+          "table": {
+            "je": "je serai",
+            "tu": "tu seras",
+            "il/elle/on": "il/elle/on sera",
+            "nous": "nous serons",
+            "vous": "vous serez",
+            "ils/elles": "ils/elles seront"
+          }
+        },
+        "conditionnel_present": {
+          "tenseName": "Conditionnel présent",
+          "rule": "Für Wünsche, Möglichkeiten, Höflichkeit und hypothetische Bedingungen.",
+          "formation": "Futur-Stamm ser- + Imparfait-Endungen (-ais, -ais, -ait, -ions, -iez, -aient).",
+          "table": {
+            "je": "je serais",
+            "tu": "tu serais",
+            "il/elle/on": "il/elle/on serait",
+            "nous": "nous serions",
+            "vous": "vous seriez",
+            "ils/elles": "ils/elles seraient"
+          }
+        },
+        "subjonctif_present": {
+          "tenseName": "Subjonctif présent",
+          "rule": "Für Gefühle, Notwendigkeiten, Zweifel und Wünsche (z. B. nach 'il faut que...').",
+          "formation": "Unregelmäßige Formen mit den Stämmen soi- / soy-.",
+          "table": {
+            "je": "que je sois",
+            "tu": "que tu sois",
+            "il/elle/on": "qu'il/elle/on soit",
+            "nous": "que nous soyons",
+            "vous": "que vous soyez",
+            "ils/elles": "qu'ils/elles soient"
+          }
+        }
+      }
+    },
+    {
+      "importKey": "avoir",
+      "infinitive": "avoir",
+      "translationDe": "haben",
+      "group": "irregular",
+      "auxiliary": "avoir",
+      "reflexive": false,
+      "forms": [
+        {
+          "importKey": "avoir|present|je",
+          "tense": "present",
+          "person": "je",
+          "form": "ai",
+          "irregular": true
+        },
+        {
+          "importKey": "avoir|present|tu",
+          "tense": "present",
+          "person": "tu",
+          "form": "as",
+          "irregular": true
+        },
+        {
+          "importKey": "avoir|present|il/elle/on",
+          "tense": "present",
+          "person": "il/elle/on",
+          "form": "a",
+          "irregular": true
+        },
+        {
+          "importKey": "avoir|present|nous",
+          "tense": "present",
+          "person": "nous",
+          "form": "avons",
+          "irregular": true
+        },
+        {
+          "importKey": "avoir|present|vous",
+          "tense": "present",
+          "person": "vous",
+          "form": "avez",
+          "irregular": true
+        },
+        {
+          "importKey": "avoir|present|ils/elles",
+          "tense": "present",
+          "person": "ils/elles",
+          "form": "ont",
+          "irregular": true
+        },
+        {
+          "importKey": "avoir|imparfait|je",
+          "tense": "imparfait",
+          "person": "je",
+          "form": "avais",
+          "irregular": true
+        },
+        {
+          "importKey": "avoir|imparfait|tu",
+          "tense": "imparfait",
+          "person": "tu",
+          "form": "avais",
+          "irregular": true
+        },
+        {
+          "importKey": "avoir|imparfait|il/elle/on",
+          "tense": "imparfait",
+          "person": "il/elle/on",
+          "form": "avait",
+          "irregular": true
+        },
+        {
+          "importKey": "avoir|imparfait|nous",
+          "tense": "imparfait",
+          "person": "nous",
+          "form": "avions",
+          "irregular": true
+        },
+        {
+          "importKey": "avoir|imparfait|vous",
+          "tense": "imparfait",
+          "person": "vous",
+          "form": "aviez",
+          "irregular": true
+        },
+        {
+          "importKey": "avoir|imparfait|ils/elles",
+          "tense": "imparfait",
+          "person": "ils/elles",
+          "form": "avaient",
+          "irregular": true
+        },
+        {
+          "importKey": "avoir|futur_simple|je",
+          "tense": "futur_simple",
+          "person": "je",
+          "form": "aurai",
+          "irregular": true
+        },
+        {
+          "importKey": "avoir|futur_simple|tu",
+          "tense": "futur_simple",
+          "person": "tu",
+          "form": "auras",
+          "irregular": true
+        },
+        {
+          "importKey": "avoir|futur_simple|il/elle/on",
+          "tense": "futur_simple",
+          "person": "il/elle/on",
+          "form": "aura",
+          "irregular": true
+        },
+        {
+          "importKey": "avoir|futur_simple|nous",
+          "tense": "futur_simple",
+          "person": "nous",
+          "form": "aurons",
+          "irregular": true
+        },
+        {
+          "importKey": "avoir|futur_simple|vous",
+          "tense": "futur_simple",
+          "person": "vous",
+          "form": "aurez",
+          "irregular": true
+        },
+        {
+          "importKey": "avoir|futur_simple|ils/elles",
+          "tense": "futur_simple",
+          "person": "ils/elles",
+          "form": "auront",
+          "irregular": true
+        },
+        {
+          "importKey": "avoir|conditionnel_present|je",
+          "tense": "conditionnel_present",
+          "person": "je",
+          "form": "aurais",
+          "irregular": true
+        },
+        {
+          "importKey": "avoir|conditionnel_present|tu",
+          "tense": "conditionnel_present",
+          "person": "tu",
+          "form": "aurais",
+          "irregular": true
+        },
+        {
+          "importKey": "avoir|conditionnel_present|il/elle/on",
+          "tense": "conditionnel_present",
+          "person": "il/elle/on",
+          "form": "aurait",
+          "irregular": true
+        },
+        {
+          "importKey": "avoir|conditionnel_present|nous",
+          "tense": "conditionnel_present",
+          "person": "nous",
+          "form": "aurions",
+          "irregular": true
+        },
+        {
+          "importKey": "avoir|conditionnel_present|vous",
+          "tense": "conditionnel_present",
+          "person": "vous",
+          "form": "auriez",
+          "irregular": true
+        },
+        {
+          "importKey": "avoir|conditionnel_present|ils/elles",
+          "tense": "conditionnel_present",
+          "person": "ils/elles",
+          "form": "auraient",
+          "irregular": true
+        },
+        {
+          "importKey": "avoir|subjonctif_present|que je",
+          "tense": "subjonctif_present",
+          "person": "que je",
+          "form": "aie",
+          "irregular": true
+        },
+        {
+          "importKey": "avoir|subjonctif_present|que tu",
+          "tense": "subjonctif_present",
+          "person": "que tu",
+          "form": "aies",
+          "irregular": true
+        },
+        {
+          "importKey": "avoir|subjonctif_present|qu'il/elle/on",
+          "tense": "subjonctif_present",
+          "person": "qu'il/elle/on",
+          "form": "ait",
+          "irregular": true
+        },
+        {
+          "importKey": "avoir|subjonctif_present|que nous",
+          "tense": "subjonctif_present",
+          "person": "que nous",
+          "form": "ayons",
+          "irregular": true
+        },
+        {
+          "importKey": "avoir|subjonctif_present|que vous",
+          "tense": "subjonctif_present",
+          "person": "que vous",
+          "form": "ayez",
+          "irregular": true
+        },
+        {
+          "importKey": "avoir|subjonctif_present|qu'ils/elles",
+          "tense": "subjonctif_present",
+          "person": "qu'ils/elles",
+          "form": "aient",
+          "irregular": true
+        },
+        {
+          "importKey": "avoir|passe_compose|je",
+          "tense": "passe_compose",
+          "person": "je",
+          "form": "ai eu",
+          "irregular": true
+        },
+        {
+          "importKey": "avoir|passe_compose|tu",
+          "tense": "passe_compose",
+          "person": "tu",
+          "form": "as eu",
+          "irregular": true
+        },
+        {
+          "importKey": "avoir|passe_compose|il/elle/on",
+          "tense": "passe_compose",
+          "person": "il/elle/on",
+          "form": "a eu",
+          "irregular": true
+        },
+        {
+          "importKey": "avoir|passe_compose|nous",
+          "tense": "passe_compose",
+          "person": "nous",
+          "form": "avons eu",
+          "irregular": true
+        },
+        {
+          "importKey": "avoir|passe_compose|vous",
+          "tense": "passe_compose",
+          "person": "vous",
+          "form": "avez eu",
+          "irregular": true
+        },
+        {
+          "importKey": "avoir|passe_compose|ils/elles",
+          "tense": "passe_compose",
+          "person": "ils/elles",
+          "form": "ont eu",
+          "irregular": true
+        }
+      ],
+      "examples": [
+        {
+          "sentenceFr": "J'ai deux frères.",
+          "sentenceDe": "Ich habe zwei Brüder.",
+          "tense": "present",
+          "context": "Familie",
+          "level": "B1",
+          "importKey": "avoir|present|J'ai deux frères."
+        },
+        {
+          "sentenceFr": "Nous avons besoin d'aide.",
+          "sentenceDe": "Wir brauchen Hilfe.",
+          "tense": "present",
+          "context": "Alltag",
+          "level": "B1",
+          "importKey": "avoir|present|Nous avons besoin d'aide."
+        },
+        {
+          "sentenceFr": "J'ai eu une bonne note.",
+          "sentenceDe": "Ich habe eine gute Note bekommen.",
+          "tense": "passe_compose",
+          "context": "Schule",
+          "level": "B1",
+          "importKey": "avoir|passe_compose|J'ai eu une bonne note."
+        },
+        {
+          "sentenceFr": "Ils ont eu un problème avec la voiture.",
+          "sentenceDe": "Sie hatten ein Problem mit dem Auto.",
+          "tense": "passe_compose",
+          "context": "Alltag",
+          "level": "B1",
+          "importKey": "avoir|passe_compose|Ils ont eu un problème av"
+        },
+        {
+          "sentenceFr": "Quand j'étais jeune, j'avais beaucoup de temps.",
+          "sentenceDe": "Als ich jung war, hatte ich viel Zeit.",
+          "tense": "imparfait",
+          "context": "Vergangenheit",
+          "level": "B1",
+          "importKey": "avoir|imparfait|Quand j'étais jeune, j'av"
+        },
+        {
+          "sentenceFr": "Il avait froid.",
+          "sentenceDe": "Ihm war kalt.",
+          "tense": "imparfait",
+          "context": "Gefühle",
+          "level": "B1",
+          "importKey": "avoir|imparfait|Il avait froid."
+        },
+        {
+          "sentenceFr": "Demain, j'aurai une réunion importante.",
+          "sentenceDe": "Morgen habe ich ein wichtiges Meeting.",
+          "tense": "futur_simple",
+          "context": "Arbeit",
+          "level": "B1",
+          "importKey": "avoir|futur_simple|Demain, j'aurai une réuni"
+        },
+        {
+          "sentenceFr": "Nous aurons bientôt les résultats.",
+          "sentenceDe": "Wir bekommen bald die Ergebnisse.",
+          "tense": "futur_simple",
+          "context": "Pläne",
+          "level": "B1",
+          "importKey": "avoir|futur_simple|Nous aurons bientôt les r"
+        },
+        {
+          "sentenceFr": "J'aimerais avoir plus de temps.",
+          "sentenceDe": "Ich hätte gern mehr Zeit.",
+          "tense": "conditionnel_present",
+          "context": "Wünsche",
+          "level": "B1",
+          "importKey": "avoir|conditionnel_present|J'aimerais avoir plus de "
+        },
+        {
+          "sentenceFr": "Ce serait mieux si tu avais une voiture.",
+          "sentenceDe": "Es wäre besser, wenn du ein Auto hättest.",
+          "tense": "conditionnel_present",
+          "context": "Diskussion",
+          "level": "B1",
+          "importKey": "avoir|conditionnel_present|Ce serait mieux si tu ava"
+        },
+        {
+          "sentenceFr": "Il faut que j'aie mon passeport.",
+          "sentenceDe": "Ich muss meinen Pass haben.",
+          "tense": "subjonctif_present",
+          "context": "Reisen",
+          "level": "B1",
+          "importKey": "avoir|subjonctif_present|Il faut que j'aie mon pas"
+        },
+        {
+          "sentenceFr": "Je doute qu'il ait compris.",
+          "sentenceDe": "Ich bezweifle, dass er verstanden hat.",
+          "tense": "subjonctif_present",
+          "context": "Kommunikation",
+          "level": "B1",
+          "importKey": "avoir|subjonctif_present|Je doute qu'il ait compri"
+        }
+      ],
+      "grammarInfo": {
+        "present": {
+          "tenseName": "Présent",
+          "rule": "Drückt Besitz, Alter, Empfindungen und Zustände in der Gegenwart aus.",
+          "formation": "Unregelmäßige Präsensformen.",
+          "table": {
+            "je": "j'ai",
+            "tu": "tu as",
+            "il/elle/on": "il/elle/on a",
+            "nous": "nous avons",
+            "vous": "vous avez",
+            "ils/elles": "ils/elles ont"
+          }
+        },
+        "passe_compose": {
+          "tenseName": "Passé composé",
+          "rule": "Für abgeschlossene Ereignisse in der Vergangenheit.",
+          "formation": "Hilfsverb avoir + Partizip Perfekt 'eu'.",
+          "table": {
+            "je": "j'ai eu",
+            "tu": "tu as eu",
+            "il/elle/on": "il/elle/on a eu",
+            "nous": "nous avons eu",
+            "vous": "vous avez eu",
+            "ils/elles": "ils/elles ont eu"
+          }
+        },
+        "imparfait": {
+          "tenseName": "Imparfait",
+          "rule": "Für frühere Zustände und regelmäßige Besitzverhältnisse.",
+          "formation": "Stamm av- + Imparfait-Endungen (-ais, -ais, -ait, -ions, -iez, -aient).",
+          "table": {
+            "je": "j'avais",
+            "tu": "tu avais",
+            "il/elle/on": "il/elle/on avait",
+            "nous": "nous avions",
+            "vous": "vous aviez",
+            "ils/elles": "ils/elles avaient"
+          }
+        },
+        "futur_simple": {
+          "tenseName": "Futur simple",
+          "rule": "Für zukünftigen Besitz, Pläne und Erwartungen.",
+          "formation": "Stamm aur- + Futur-Endungen (-ai, -as, -a, -ons, -ez, -ont).",
+          "table": {
+            "je": "j'aurai",
+            "tu": "tu auras",
+            "il/elle/on": "il/elle/on aura",
+            "nous": "nous aurons",
+            "vous": "vous aurez",
+            "ils/elles": "ils/elles auront"
+          }
+        },
+        "conditionnel_present": {
+          "tenseName": "Conditionnel présent",
+          "rule": "Für hypothetischen Besitz, Wünsche und höfliche Bitten.",
+          "formation": "Stamm aur- + Imparfait-Endungen (-ais, -ais, -ait, -ions, -iez, -aient).",
+          "table": {
+            "je": "j'aurais",
+            "tu": "tu aurais",
+            "il/elle/on": "il/elle/on aurait",
+            "nous": "nous aurions",
+            "vous": "vous auriez",
+            "ils/elles": "ils/elles auraient"
+          }
+        },
+        "subjonctif_present": {
+          "tenseName": "Subjonctif présent",
+          "rule": "Für Erfordernisse, Vorbehalte und Gefühle.",
+          "formation": "Unregelmäßige Formen mit Stamm ai- / ay-.",
+          "table": {
+            "je": "que j'aie",
+            "tu": "que tu aies",
+            "il/elle/on": "qu'il/elle/on ait",
+            "nous": "que nous ayons",
+            "vous": "que vous ayez",
+            "ils/elles": "qu'ils/elles aient"
+          }
+        }
+      }
+    },
+    {
+      "importKey": "aller",
+      "infinitive": "aller",
+      "translationDe": "gehen",
+      "group": "irregular",
+      "auxiliary": "être",
+      "reflexive": false,
+      "forms": [
+        {
+          "importKey": "aller|present|je",
+          "tense": "present",
+          "person": "je",
+          "form": "vais",
+          "irregular": true
+        },
+        {
+          "importKey": "aller|present|tu",
+          "tense": "present",
+          "person": "tu",
+          "form": "vas",
+          "irregular": true
+        },
+        {
+          "importKey": "aller|present|il/elle/on",
+          "tense": "present",
+          "person": "il/elle/on",
+          "form": "va",
+          "irregular": true
+        },
+        {
+          "importKey": "aller|present|nous",
+          "tense": "present",
+          "person": "nous",
+          "form": "allons",
+          "irregular": true
+        },
+        {
+          "importKey": "aller|present|vous",
+          "tense": "present",
+          "person": "vous",
+          "form": "allez",
+          "irregular": true
+        },
+        {
+          "importKey": "aller|present|ils/elles",
+          "tense": "present",
+          "person": "ils/elles",
+          "form": "vont",
+          "irregular": true
+        },
+        {
+          "importKey": "aller|imparfait|je",
+          "tense": "imparfait",
+          "person": "je",
+          "form": "allais",
+          "irregular": true
+        },
+        {
+          "importKey": "aller|imparfait|tu",
+          "tense": "imparfait",
+          "person": "tu",
+          "form": "allais",
+          "irregular": true
+        },
+        {
+          "importKey": "aller|imparfait|il/elle/on",
+          "tense": "imparfait",
+          "person": "il/elle/on",
+          "form": "allait",
+          "irregular": true
+        },
+        {
+          "importKey": "aller|imparfait|nous",
+          "tense": "imparfait",
+          "person": "nous",
+          "form": "allions",
+          "irregular": true
+        },
+        {
+          "importKey": "aller|imparfait|vous",
+          "tense": "imparfait",
+          "person": "vous",
+          "form": "alliez",
+          "irregular": true
+        },
+        {
+          "importKey": "aller|imparfait|ils/elles",
+          "tense": "imparfait",
+          "person": "ils/elles",
+          "form": "allaient",
+          "irregular": true
+        },
+        {
+          "importKey": "aller|futur_simple|je",
+          "tense": "futur_simple",
+          "person": "je",
+          "form": "irai",
+          "irregular": true
+        },
+        {
+          "importKey": "aller|futur_simple|tu",
+          "tense": "futur_simple",
+          "person": "tu",
+          "form": "iras",
+          "irregular": true
+        },
+        {
+          "importKey": "aller|futur_simple|il/elle/on",
+          "tense": "futur_simple",
+          "person": "il/elle/on",
+          "form": "ira",
+          "irregular": true
+        },
+        {
+          "importKey": "aller|futur_simple|nous",
+          "tense": "futur_simple",
+          "person": "nous",
+          "form": "irons",
+          "irregular": true
+        },
+        {
+          "importKey": "aller|futur_simple|vous",
+          "tense": "futur_simple",
+          "person": "vous",
+          "form": "irez",
+          "irregular": true
+        },
+        {
+          "importKey": "aller|futur_simple|ils/elles",
+          "tense": "futur_simple",
+          "person": "ils/elles",
+          "form": "iront",
+          "irregular": true
+        },
+        {
+          "importKey": "aller|conditionnel_present|je",
+          "tense": "conditionnel_present",
+          "person": "je",
+          "form": "irais",
+          "irregular": true
+        },
+        {
+          "importKey": "aller|conditionnel_present|tu",
+          "tense": "conditionnel_present",
+          "person": "tu",
+          "form": "irais",
+          "irregular": true
+        },
+        {
+          "importKey": "aller|conditionnel_present|il/elle/on",
+          "tense": "conditionnel_present",
+          "person": "il/elle/on",
+          "form": "irait",
+          "irregular": true
+        },
+        {
+          "importKey": "aller|conditionnel_present|nous",
+          "tense": "conditionnel_present",
+          "person": "nous",
+          "form": "irions",
+          "irregular": true
+        },
+        {
+          "importKey": "aller|conditionnel_present|vous",
+          "tense": "conditionnel_present",
+          "person": "vous",
+          "form": "iriez",
+          "irregular": true
+        },
+        {
+          "importKey": "aller|conditionnel_present|ils/elles",
+          "tense": "conditionnel_present",
+          "person": "ils/elles",
+          "form": "iraient",
+          "irregular": true
+        },
+        {
+          "importKey": "aller|subjonctif_present|que je",
+          "tense": "subjonctif_present",
+          "person": "que je",
+          "form": "aille",
+          "irregular": true
+        },
+        {
+          "importKey": "aller|subjonctif_present|que tu",
+          "tense": "subjonctif_present",
+          "person": "que tu",
+          "form": "ailles",
+          "irregular": true
+        },
+        {
+          "importKey": "aller|subjonctif_present|qu'il/elle/on",
+          "tense": "subjonctif_present",
+          "person": "qu'il/elle/on",
+          "form": "aille",
+          "irregular": true
+        },
+        {
+          "importKey": "aller|subjonctif_present|que nous",
+          "tense": "subjonctif_present",
+          "person": "que nous",
+          "form": "allions",
+          "irregular": true
+        },
+        {
+          "importKey": "aller|subjonctif_present|que vous",
+          "tense": "subjonctif_present",
+          "person": "que vous",
+          "form": "alliez",
+          "irregular": true
+        },
+        {
+          "importKey": "aller|subjonctif_present|qu'ils/elles",
+          "tense": "subjonctif_present",
+          "person": "qu'ils/elles",
+          "form": "aillent",
+          "irregular": true
+        },
+        {
+          "importKey": "aller|passe_compose|je",
+          "tense": "passe_compose",
+          "person": "je",
+          "form": "suis allé(e)",
+          "irregular": true
+        },
+        {
+          "importKey": "aller|passe_compose|tu",
+          "tense": "passe_compose",
+          "person": "tu",
+          "form": "es allé(e)",
+          "irregular": true
+        },
+        {
+          "importKey": "aller|passe_compose|il/elle/on",
+          "tense": "passe_compose",
+          "person": "il/elle/on",
+          "form": "est allé(e)",
+          "irregular": true
+        },
+        {
+          "importKey": "aller|passe_compose|nous",
+          "tense": "passe_compose",
+          "person": "nous",
+          "form": "sommes allé(e)s",
+          "irregular": true
+        },
+        {
+          "importKey": "aller|passe_compose|vous",
+          "tense": "passe_compose",
+          "person": "vous",
+          "form": "êtes allé(e)s",
+          "irregular": true
+        },
+        {
+          "importKey": "aller|passe_compose|ils/elles",
+          "tense": "passe_compose",
+          "person": "ils/elles",
+          "form": "sont allé(e)s",
+          "irregular": true
+        }
+      ],
+      "examples": [
+        {
+          "sentenceFr": "Je vais au travail en bus.",
+          "sentenceDe": "Ich fahre mit dem Bus zur Arbeit.",
+          "tense": "present",
+          "context": "Alltag",
+          "level": "B1",
+          "importKey": "aller|present|Je vais au travail en bus"
+        },
+        {
+          "sentenceFr": "Nous allons souvent au parc.",
+          "sentenceDe": "Wir gehen oft in den Park.",
+          "tense": "present",
+          "context": "Freizeit",
+          "level": "B1",
+          "importKey": "aller|present|Nous allons souvent au pa"
+        },
+        {
+          "sentenceFr": "Je suis allé(e) au marché ce matin.",
+          "sentenceDe": "Ich bin heute Morgen zum Markt gegangen.",
+          "tense": "passe_compose",
+          "context": "Einkauf",
+          "level": "B1",
+          "importKey": "aller|passe_compose|Je suis allé(e) au marché"
+        },
+        {
+          "sentenceFr": "Nous sommes allés en France l'année dernière.",
+          "sentenceDe": "Wir sind letztes Jahr nach Frankreich gefahren.",
+          "tense": "passe_compose",
+          "context": "Reisen",
+          "level": "B1",
+          "importKey": "aller|passe_compose|Nous sommes allés en Fran"
+        },
+        {
+          "sentenceFr": "Quand j'étais étudiant, j'allais souvent à la bibliothèque.",
+          "sentenceDe": "Als Student ging ich oft in die Bibliothek.",
+          "tense": "imparfait",
+          "context": "Studium",
+          "level": "B1",
+          "importKey": "aller|imparfait|Quand j'étais étudiant, j"
+        },
+        {
+          "sentenceFr": "Elle allait à la piscine chaque semaine.",
+          "sentenceDe": "Sie ging jede Woche ins Schwimmbad.",
+          "tense": "imparfait",
+          "context": "Sport",
+          "level": "B1",
+          "importKey": "aller|imparfait|Elle allait à la piscine "
+        },
+        {
+          "sentenceFr": "Demain, je vais aller chez le médecin.",
+          "sentenceDe": "Morgen gehe ich zum Arzt.",
+          "tense": "futur_simple",
+          "context": "Gesundheit",
+          "level": "B1",
+          "importKey": "aller|futur_simple|Demain, je vais aller che"
+        },
+        {
+          "sentenceFr": "Nous irons en vacances en août.",
+          "sentenceDe": "Wir fahren im August in den Urlaub.",
+          "tense": "futur_simple",
+          "context": "Urlaub",
+          "level": "B1",
+          "importKey": "aller|futur_simple|Nous irons en vacances en"
+        },
+        {
+          "sentenceFr": "J'irais avec toi si j'avais le temps.",
+          "sentenceDe": "Ich würde mitkommen, wenn ich Zeit hätte.",
+          "tense": "conditionnel_present",
+          "context": "Freundschaft",
+          "level": "B1",
+          "importKey": "aller|conditionnel_present|J'irais avec toi si j'ava"
+        },
+        {
+          "sentenceFr": "On pourrait aller au restaurant ce soir.",
+          "sentenceDe": "Wir könnten heute Abend ins Restaurant gehen.",
+          "tense": "conditionnel_present",
+          "context": "Vorschlag",
+          "level": "B1",
+          "importKey": "aller|conditionnel_present|On pourrait aller au rest"
+        },
+        {
+          "sentenceFr": "Il faut que j'aille à la banque.",
+          "sentenceDe": "Ich muss zur Bank gehen.",
+          "tense": "subjonctif_present",
+          "context": "Erledigungen",
+          "level": "B1",
+          "importKey": "aller|subjonctif_present|Il faut que j'aille à la "
+        },
+        {
+          "sentenceFr": "Bien que nous allions être en retard, nous continuons.",
+          "sentenceDe": "Obwohl wir zu spät kommen werden, machen wir weiter.",
+          "tense": "subjonctif_present",
+          "context": "Alltag",
+          "level": "B1",
+          "importKey": "aller|subjonctif_present|Bien que nous allions êtr"
+        }
+      ],
+      "grammarInfo": {
+        "present": {
+          "tenseName": "Présent",
+          "rule": "Für Bewegung, Richtungen und unmittelbare Zukunftsabsichten (Futur composé).",
+          "formation": "Sehr unregelmäßige Formen (vais, vas, va, allons, allez, vont).",
+          "table": {
+            "je": "je vais",
+            "tu": "tu vas",
+            "il/elle/on": "il/elle/on va",
+            "nous": "nous allons",
+            "vous": "vous allez",
+            "ils/elles": "ils/elles vont"
+          }
+        },
+        "passe_compose": {
+          "tenseName": "Passé composé",
+          "rule": "Für vergangene Wege und Orte, die man aufgesucht hat.",
+          "formation": "Hilfsverb être + Partizip Perfekt 'allé(e)(s)' (mit Subjekt-Angleichung).",
+          "table": {
+            "je": "je suis allé(e)",
+            "tu": "tu es allé(e)",
+            "il/elle/on": "il/elle/on est allé(e)",
+            "nous": "nous sommes allé(e)s",
+            "vous": "vous êtes allé(e)s",
+            "ils/elles": "ils/elles sont allé(e)s"
+          }
+        },
+        "imparfait": {
+          "tenseName": "Imparfait",
+          "rule": "Für regelmäßige Gewohnheitswege in der Vergangenheit.",
+          "formation": "Stamm all- + Endungen (-ais, -ais, -ait, -ions, -iez, -aient).",
+          "table": {
+            "je": "j'allais",
+            "tu": "tu allais",
+            "il/elle/on": "il/elle/on allait",
+            "nous": "nous allions",
+            "vous": "vous alliez",
+            "ils/elles": "ils/elles allaient"
+          }
+        },
+        "futur_simple": {
+          "tenseName": "Futur simple",
+          "rule": "Für zukünftige Reisen und Vorhaben.",
+          "formation": "Unregelmäßiger Stamm ir- + Endungen (-ai, -as, -a, -ons, -ez, -ont).",
+          "table": {
+            "je": "j'irai",
+            "tu": "tu iras",
+            "il/elle/on": "il/elle/on ira",
+            "nous": "nous irons",
+            "vous": "vous irez",
+            "ils/elles": "ils/elles iront"
+          }
+        },
+        "conditionnel_present": {
+          "tenseName": "Conditionnel présent",
+          "rule": "Für hypothetische Wege, Vorschläge und Wünsche.",
+          "formation": "Stamm ir- + Imparfait-Endungen (-ais, -ais, -ait, -ions, -iez, -aient).",
+          "table": {
+            "je": "j'irais",
+            "tu": "tu irais",
+            "il/elle/on": "il/elle/on irait",
+            "nous": "nous irions",
+            "vous": "vous iriez",
+            "ils/elles": "ils/elles iraient"
+          }
+        },
+        "subjonctif_present": {
+          "tenseName": "Subjonctif présent",
+          "rule": "Für Notwendigkeiten und Wünsche zu Bewegung/Reisen.",
+          "formation": "Stamm aill- (1., 2., 3. Sg. & 3. Pl.) / all- (1. & 2. Pl.).",
+          "table": {
+            "je": "que j'aille",
+            "tu": "que tu ailles",
+            "il/elle/on": "qu'il/elle/on aille",
+            "nous": "que nous allions",
+            "vous": "que vous alliez",
+            "ils/elles": "qu'ils/elles aillent"
+          }
+        }
+      }
+    },
+    {
+      "importKey": "faire",
+      "infinitive": "faire",
+      "translationDe": "machen / tun",
+      "group": "irregular",
+      "auxiliary": "avoir",
+      "reflexive": false,
+      "forms": [
+        {
+          "importKey": "faire|present|je",
+          "tense": "present",
+          "person": "je",
+          "form": "fais",
+          "irregular": true
+        },
+        {
+          "importKey": "faire|present|tu",
+          "tense": "present",
+          "person": "tu",
+          "form": "fais",
+          "irregular": true
+        },
+        {
+          "importKey": "faire|present|il/elle/on",
+          "tense": "present",
+          "person": "il/elle/on",
+          "form": "fait",
+          "irregular": true
+        },
+        {
+          "importKey": "faire|present|nous",
+          "tense": "present",
+          "person": "nous",
+          "form": "faisons",
+          "irregular": true
+        },
+        {
+          "importKey": "faire|present|vous",
+          "tense": "present",
+          "person": "vous",
+          "form": "faites",
+          "irregular": true
+        },
+        {
+          "importKey": "faire|present|ils/elles",
+          "tense": "present",
+          "person": "ils/elles",
+          "form": "font",
+          "irregular": true
+        },
+        {
+          "importKey": "faire|imparfait|je",
+          "tense": "imparfait",
+          "person": "je",
+          "form": "faisais",
+          "irregular": true
+        },
+        {
+          "importKey": "faire|imparfait|tu",
+          "tense": "imparfait",
+          "person": "tu",
+          "form": "faisais",
+          "irregular": true
+        },
+        {
+          "importKey": "faire|imparfait|il/elle/on",
+          "tense": "imparfait",
+          "person": "il/elle/on",
+          "form": "faisait",
+          "irregular": true
+        },
+        {
+          "importKey": "faire|imparfait|nous",
+          "tense": "imparfait",
+          "person": "nous",
+          "form": "faisions",
+          "irregular": true
+        },
+        {
+          "importKey": "faire|imparfait|vous",
+          "tense": "imparfait",
+          "person": "vous",
+          "form": "faisiez",
+          "irregular": true
+        },
+        {
+          "importKey": "faire|imparfait|ils/elles",
+          "tense": "imparfait",
+          "person": "ils/elles",
+          "form": "faisaient",
+          "irregular": true
+        },
+        {
+          "importKey": "faire|futur_simple|je",
+          "tense": "futur_simple",
+          "person": "je",
+          "form": "ferai",
+          "irregular": true
+        },
+        {
+          "importKey": "faire|futur_simple|tu",
+          "tense": "futur_simple",
+          "person": "tu",
+          "form": "feras",
+          "irregular": true
+        },
+        {
+          "importKey": "faire|futur_simple|il/elle/on",
+          "tense": "futur_simple",
+          "person": "il/elle/on",
+          "form": "fera",
+          "irregular": true
+        },
+        {
+          "importKey": "faire|futur_simple|nous",
+          "tense": "futur_simple",
+          "person": "nous",
+          "form": "ferons",
+          "irregular": true
+        },
+        {
+          "importKey": "faire|futur_simple|vous",
+          "tense": "futur_simple",
+          "person": "vous",
+          "form": "ferez",
+          "irregular": true
+        },
+        {
+          "importKey": "faire|futur_simple|ils/elles",
+          "tense": "futur_simple",
+          "person": "ils/elles",
+          "form": "feront",
+          "irregular": true
+        },
+        {
+          "importKey": "faire|conditionnel_present|je",
+          "tense": "conditionnel_present",
+          "person": "je",
+          "form": "ferais",
+          "irregular": true
+        },
+        {
+          "importKey": "faire|conditionnel_present|tu",
+          "tense": "conditionnel_present",
+          "person": "tu",
+          "form": "ferais",
+          "irregular": true
+        },
+        {
+          "importKey": "faire|conditionnel_present|il/elle/on",
+          "tense": "conditionnel_present",
+          "person": "il/elle/on",
+          "form": "ferait",
+          "irregular": true
+        },
+        {
+          "importKey": "faire|conditionnel_present|nous",
+          "tense": "conditionnel_present",
+          "person": "nous",
+          "form": "ferions",
+          "irregular": true
+        },
+        {
+          "importKey": "faire|conditionnel_present|vous",
+          "tense": "conditionnel_present",
+          "person": "vous",
+          "form": "feriez",
+          "irregular": true
+        },
+        {
+          "importKey": "faire|conditionnel_present|ils/elles",
+          "tense": "conditionnel_present",
+          "person": "ils/elles",
+          "form": "feraient",
+          "irregular": true
+        },
+        {
+          "importKey": "faire|subjonctif_present|que je",
+          "tense": "subjonctif_present",
+          "person": "que je",
+          "form": "fasse",
+          "irregular": true
+        },
+        {
+          "importKey": "faire|subjonctif_present|que tu",
+          "tense": "subjonctif_present",
+          "person": "que tu",
+          "form": "fasses",
+          "irregular": true
+        },
+        {
+          "importKey": "faire|subjonctif_present|qu'il/elle/on",
+          "tense": "subjonctif_present",
+          "person": "qu'il/elle/on",
+          "form": "fasse",
+          "irregular": true
+        },
+        {
+          "importKey": "faire|subjonctif_present|que nous",
+          "tense": "subjonctif_present",
+          "person": "que nous",
+          "form": "fassions",
+          "irregular": true
+        },
+        {
+          "importKey": "faire|subjonctif_present|que vous",
+          "tense": "subjonctif_present",
+          "person": "que vous",
+          "form": "fassiez",
+          "irregular": true
+        },
+        {
+          "importKey": "faire|subjonctif_present|qu'ils/elles",
+          "tense": "subjonctif_present",
+          "person": "qu'ils/elles",
+          "form": "fassent",
+          "irregular": true
+        },
+        {
+          "importKey": "faire|passe_compose|je",
+          "tense": "passe_compose",
+          "person": "je",
+          "form": "ai fait",
+          "irregular": true
+        },
+        {
+          "importKey": "faire|passe_compose|tu",
+          "tense": "passe_compose",
+          "person": "tu",
+          "form": "as fait",
+          "irregular": true
+        },
+        {
+          "importKey": "faire|passe_compose|il/elle/on",
+          "tense": "passe_compose",
+          "person": "il/elle/on",
+          "form": "a fait",
+          "irregular": true
+        },
+        {
+          "importKey": "faire|passe_compose|nous",
+          "tense": "passe_compose",
+          "person": "nous",
+          "form": "avons fait",
+          "irregular": true
+        },
+        {
+          "importKey": "faire|passe_compose|vous",
+          "tense": "passe_compose",
+          "person": "vous",
+          "form": "avez fait",
+          "irregular": true
+        },
+        {
+          "importKey": "faire|passe_compose|ils/elles",
+          "tense": "passe_compose",
+          "person": "ils/elles",
+          "form": "ont fait",
+          "irregular": true
+        }
+      ],
+      "examples": [
+        {
+          "sentenceFr": "Je fais du sport trois fois par semaine.",
+          "sentenceDe": "Ich mache dreimal pro Woche Sport.",
+          "tense": "present",
+          "context": "Sport",
+          "level": "B1",
+          "importKey": "faire|present|Je fais du sport trois fo"
+        },
+        {
+          "sentenceFr": "Qu'est-ce que tu fais ce soir ?",
+          "sentenceDe": "Was machst du heute Abend?",
+          "tense": "present",
+          "context": "Alltag",
+          "level": "B1",
+          "importKey": "faire|present|Qu'est-ce que tu fais ce "
+        },
+        {
+          "sentenceFr": "J'ai fait mes devoirs hier.",
+          "sentenceDe": "Ich habe gestern meine Hausaufgaben gemacht.",
+          "tense": "passe_compose",
+          "context": "Schule",
+          "level": "B1",
+          "importKey": "faire|passe_compose|J'ai fait mes devoirs hie"
+        },
+        {
+          "sentenceFr": "Nous avons fait une promenade.",
+          "sentenceDe": "Wir haben einen Spaziergang gemacht.",
+          "tense": "passe_compose",
+          "context": "Freizeit",
+          "level": "B1",
+          "importKey": "faire|passe_compose|Nous avons fait une prome"
+        },
+        {
+          "sentenceFr": "Quand j'étais petit, je faisais souvent du vélo.",
+          "sentenceDe": "Als ich klein war, fuhr ich oft Fahrrad.",
+          "tense": "imparfait",
+          "context": "Kindheit",
+          "level": "B1",
+          "importKey": "faire|imparfait|Quand j'étais petit, je f"
+        },
+        {
+          "sentenceFr": "Elle faisait la cuisine pendant que je lisais.",
+          "sentenceDe": "Sie kochte, während ich las.",
+          "tense": "imparfait",
+          "context": "Alltag",
+          "level": "B1",
+          "importKey": "faire|imparfait|Elle faisait la cuisine p"
+        },
+        {
+          "sentenceFr": "Demain, je ferai les courses.",
+          "sentenceDe": "Morgen mache ich die Einkäufe.",
+          "tense": "futur_simple",
+          "context": "Haushalt",
+          "level": "B1",
+          "importKey": "faire|futur_simple|Demain, je ferai les cour"
+        },
+        {
+          "sentenceFr": "Nous ferons une pause après la réunion.",
+          "sentenceDe": "Wir machen nach dem Meeting eine Pause.",
+          "tense": "futur_simple",
+          "context": "Arbeit",
+          "level": "B1",
+          "importKey": "faire|futur_simple|Nous ferons une pause apr"
+        },
+        {
+          "sentenceFr": "Je ferais plus de sport si j'avais le temps.",
+          "sentenceDe": "Ich würde mehr Sport machen, wenn ich Zeit hätte.",
+          "tense": "conditionnel_present",
+          "context": "Gesundheit",
+          "level": "B1",
+          "importKey": "faire|conditionnel_present|Je ferais plus de sport s"
+        },
+        {
+          "sentenceFr": "Tu devrais faire attention.",
+          "sentenceDe": "Du solltest aufpassen.",
+          "tense": "conditionnel_present",
+          "context": "Rat",
+          "level": "B1",
+          "importKey": "faire|conditionnel_present|Tu devrais faire attentio"
+        },
+        {
+          "sentenceFr": "Il faut que nous fassions attention.",
+          "sentenceDe": "Wir müssen aufpassen.",
+          "tense": "subjonctif_present",
+          "context": "Pflicht",
+          "level": "B1",
+          "importKey": "faire|subjonctif_present|Il faut que nous fassions"
+        },
+        {
+          "sentenceFr": "Bien qu'il fasse froid, nous sortons.",
+          "sentenceDe": "Obwohl es kalt ist, gehen wir raus.",
+          "tense": "subjonctif_present",
+          "context": "Wetter",
+          "level": "B1",
+          "importKey": "faire|subjonctif_present|Bien qu'il fasse froid, n"
+        }
+      ],
+      "grammarInfo": {
+        "present": {
+          "tenseName": "Présent",
+          "rule": "Für Tätigkeiten, Sport, Wetter und Aktivitäten in der Gegenwart.",
+          "formation": "Unregelmäßige Präsensformen (fais, fais, fait, faisons, faites, font).",
+          "table": {
+            "je": "je fais",
+            "tu": "tu fais",
+            "il/elle/on": "il/elle/on fait",
+            "nous": "nous faisons",
+            "vous": "vous faites",
+            "ils/elles": "ils/elles font"
+          }
+        },
+        "passe_compose": {
+          "tenseName": "Passé composé",
+          "rule": "Für erledigte Handlungen und Aktivitäten in der Vergangenheit.",
+          "formation": "Hilfsverb avoir + Partizip Perfekt 'fait'.",
+          "table": {
+            "je": "j'ai fait",
+            "tu": "tu as fait",
+            "il/elle/on": "il/elle/on a fait",
+            "nous": "nous avons fait",
+            "vous": "vous avez fait",
+            "ils/elles": "ils/elles ont fait"
+          }
+        },
+        "imparfait": {
+          "tenseName": "Imparfait",
+          "rule": "Für frühere Gewohnheiten und Tätigkeiten.",
+          "formation": "Stamm fais- + Endungen (-ais, -ais, -ait, -ions, -iez, -aient).",
+          "table": {
+            "je": "je faisais",
+            "tu": "tu faisais",
+            "il/elle/on": "il/elle/on faisait",
+            "nous": "nous faisions",
+            "vous": "vous faisiez",
+            "ils/elles": "ils/elles faisaient"
+          }
+        },
+        "futur_simple": {
+          "tenseName": "Futur simple",
+          "rule": "Für künftige Pläne und Vorhaben.",
+          "formation": "Unregelmäßiger Stamm fer- + Endungen (-ai, -as, -a, -ons, -ez, -ont).",
+          "table": {
+            "je": "je ferai",
+            "tu": "tu feras",
+            "il/elle/on": "il/elle/on fera",
+            "nous": "nous ferons",
+            "vous": "vous ferez",
+            "ils/elles": "ils/elles feront"
+          }
+        },
+        "conditionnel_present": {
+          "tenseName": "Conditionnel présent",
+          "rule": "Für Ratschläge, Höflichkeit und hypothetische Handlungen.",
+          "formation": "Stamm fer- + Imparfait-Endungen (-ais, -ais, -ait, -ions, -iez, -aient).",
+          "table": {
+            "je": "je ferais",
+            "tu": "tu ferais",
+            "il/elle/on": "il/elle/on ferait",
+            "nous": "nous ferions",
+            "vous": "vous feriez",
+            "ils/elles": "ils/elles feraient"
+          }
+        },
+        "subjonctif_present": {
+          "tenseName": "Subjonctif présent",
+          "rule": "Nach Ausdrücken der Notwendigkeit (z. B. 'il faut que...').",
+          "formation": "Stamm fass- + Subjonctif-Endungen (-e, -es, -e, -ions, -iez, -ent).",
+          "table": {
+            "je": "que je fasse",
+            "tu": "que tu fasses",
+            "il/elle/on": "qu'il/elle/on fasse",
+            "nous": "que nous fassions",
+            "vous": "que vous fassiez",
+            "ils/elles": "qu'ils/elles fassent"
+          }
+        }
+      }
+    },
+    {
+      "importKey": "dire",
+      "infinitive": "dire",
+      "translationDe": "sagen",
+      "group": "irregular",
+      "auxiliary": "avoir",
+      "reflexive": false,
+      "forms": [
+        {
+          "importKey": "dire|present|je",
+          "tense": "present",
+          "person": "je",
+          "form": "dis",
+          "irregular": true
+        },
+        {
+          "importKey": "dire|present|tu",
+          "tense": "present",
+          "person": "tu",
+          "form": "dis",
+          "irregular": true
+        },
+        {
+          "importKey": "dire|present|il/elle/on",
+          "tense": "present",
+          "person": "il/elle/on",
+          "form": "dit",
+          "irregular": true
+        },
+        {
+          "importKey": "dire|present|nous",
+          "tense": "present",
+          "person": "nous",
+          "form": "disons",
+          "irregular": true
+        },
+        {
+          "importKey": "dire|present|vous",
+          "tense": "present",
+          "person": "vous",
+          "form": "dites",
+          "irregular": true
+        },
+        {
+          "importKey": "dire|present|ils/elles",
+          "tense": "present",
+          "person": "ils/elles",
+          "form": "disent",
+          "irregular": true
+        },
+        {
+          "importKey": "dire|imparfait|je",
+          "tense": "imparfait",
+          "person": "je",
+          "form": "disais",
+          "irregular": true
+        },
+        {
+          "importKey": "dire|imparfait|tu",
+          "tense": "imparfait",
+          "person": "tu",
+          "form": "disais",
+          "irregular": true
+        },
+        {
+          "importKey": "dire|imparfait|il/elle/on",
+          "tense": "imparfait",
+          "person": "il/elle/on",
+          "form": "disait",
+          "irregular": true
+        },
+        {
+          "importKey": "dire|imparfait|nous",
+          "tense": "imparfait",
+          "person": "nous",
+          "form": "disions",
+          "irregular": true
+        },
+        {
+          "importKey": "dire|imparfait|vous",
+          "tense": "imparfait",
+          "person": "vous",
+          "form": "disiez",
+          "irregular": true
+        },
+        {
+          "importKey": "dire|imparfait|ils/elles",
+          "tense": "imparfait",
+          "person": "ils/elles",
+          "form": "disaient",
+          "irregular": true
+        },
+        {
+          "importKey": "dire|futur_simple|je",
+          "tense": "futur_simple",
+          "person": "je",
+          "form": "dirai",
+          "irregular": true
+        },
+        {
+          "importKey": "dire|futur_simple|tu",
+          "tense": "futur_simple",
+          "person": "tu",
+          "form": "diras",
+          "irregular": true
+        },
+        {
+          "importKey": "dire|futur_simple|il/elle/on",
+          "tense": "futur_simple",
+          "person": "il/elle/on",
+          "form": "dira",
+          "irregular": true
+        },
+        {
+          "importKey": "dire|futur_simple|nous",
+          "tense": "futur_simple",
+          "person": "nous",
+          "form": "dirons",
+          "irregular": true
+        },
+        {
+          "importKey": "dire|futur_simple|vous",
+          "tense": "futur_simple",
+          "person": "vous",
+          "form": "direz",
+          "irregular": true
+        },
+        {
+          "importKey": "dire|futur_simple|ils/elles",
+          "tense": "futur_simple",
+          "person": "ils/elles",
+          "form": "diront",
+          "irregular": true
+        },
+        {
+          "importKey": "dire|conditionnel_present|je",
+          "tense": "conditionnel_present",
+          "person": "je",
+          "form": "dirais",
+          "irregular": true
+        },
+        {
+          "importKey": "dire|conditionnel_present|tu",
+          "tense": "conditionnel_present",
+          "person": "tu",
+          "form": "dirais",
+          "irregular": true
+        },
+        {
+          "importKey": "dire|conditionnel_present|il/elle/on",
+          "tense": "conditionnel_present",
+          "person": "il/elle/on",
+          "form": "dirait",
+          "irregular": true
+        },
+        {
+          "importKey": "dire|conditionnel_present|nous",
+          "tense": "conditionnel_present",
+          "person": "nous",
+          "form": "dirions",
+          "irregular": true
+        },
+        {
+          "importKey": "dire|conditionnel_present|vous",
+          "tense": "conditionnel_present",
+          "person": "vous",
+          "form": "diriez",
+          "irregular": true
+        },
+        {
+          "importKey": "dire|conditionnel_present|ils/elles",
+          "tense": "conditionnel_present",
+          "person": "ils/elles",
+          "form": "diraient",
+          "irregular": true
+        },
+        {
+          "importKey": "dire|subjonctif_present|que je",
+          "tense": "subjonctif_present",
+          "person": "que je",
+          "form": "dise",
+          "irregular": true
+        },
+        {
+          "importKey": "dire|subjonctif_present|que tu",
+          "tense": "subjonctif_present",
+          "person": "que tu",
+          "form": "dises",
+          "irregular": true
+        },
+        {
+          "importKey": "dire|subjonctif_present|qu'il/elle/on",
+          "tense": "subjonctif_present",
+          "person": "qu'il/elle/on",
+          "form": "dise",
+          "irregular": true
+        },
+        {
+          "importKey": "dire|subjonctif_present|que nous",
+          "tense": "subjonctif_present",
+          "person": "que nous",
+          "form": "disions",
+          "irregular": true
+        },
+        {
+          "importKey": "dire|subjonctif_present|que vous",
+          "tense": "subjonctif_present",
+          "person": "que vous",
+          "form": "disiez",
+          "irregular": true
+        },
+        {
+          "importKey": "dire|subjonctif_present|qu'ils/elles",
+          "tense": "subjonctif_present",
+          "person": "qu'ils/elles",
+          "form": "disent",
+          "irregular": true
+        },
+        {
+          "importKey": "dire|passe_compose|je",
+          "tense": "passe_compose",
+          "person": "je",
+          "form": "ai dit",
+          "irregular": true
+        },
+        {
+          "importKey": "dire|passe_compose|tu",
+          "tense": "passe_compose",
+          "person": "tu",
+          "form": "as dit",
+          "irregular": true
+        },
+        {
+          "importKey": "dire|passe_compose|il/elle/on",
+          "tense": "passe_compose",
+          "person": "il/elle/on",
+          "form": "a dit",
+          "irregular": true
+        },
+        {
+          "importKey": "dire|passe_compose|nous",
+          "tense": "passe_compose",
+          "person": "nous",
+          "form": "avons dit",
+          "irregular": true
+        },
+        {
+          "importKey": "dire|passe_compose|vous",
+          "tense": "passe_compose",
+          "person": "vous",
+          "form": "avez dit",
+          "irregular": true
+        },
+        {
+          "importKey": "dire|passe_compose|ils/elles",
+          "tense": "passe_compose",
+          "person": "ils/elles",
+          "form": "ont dit",
+          "irregular": true
+        }
+      ],
+      "examples": [
+        {
+          "sentenceFr": "Je dis toujours la vérité.",
+          "sentenceDe": "Ich sage immer die Wahrheit.",
+          "tense": "present",
+          "context": "Werte",
+          "level": "B1",
+          "importKey": "dire|present|Je dis toujours la vérité"
+        },
+        {
+          "sentenceFr": "Qu'est-ce que tu dis ?",
+          "sentenceDe": "Was sagst du?",
+          "tense": "present",
+          "context": "Kommunikation",
+          "level": "B1",
+          "importKey": "dire|present|Qu'est-ce que tu dis ?"
+        },
+        {
+          "sentenceFr": "Il m'a dit qu'il viendrait.",
+          "sentenceDe": "Er hat mir gesagt, dass er kommen würde.",
+          "tense": "passe_compose",
+          "context": "Kommunikation",
+          "level": "B1",
+          "importKey": "dire|passe_compose|Il m'a dit qu'il viendrai"
+        },
+        {
+          "sentenceFr": "Nous avons dit au revoir.",
+          "sentenceDe": "Wir haben Auf Wiedersehen gesagt.",
+          "tense": "passe_compose",
+          "context": "Abschied",
+          "level": "B1",
+          "importKey": "dire|passe_compose|Nous avons dit au revoir."
+        },
+        {
+          "sentenceFr": "Ma grand-mère disait souvent des histoires.",
+          "sentenceDe": "Meine Großmutter erzählte oft Geschichten.",
+          "tense": "imparfait",
+          "context": "Familie",
+          "level": "B1",
+          "importKey": "dire|imparfait|Ma grand-mère disait souv"
+        },
+        {
+          "sentenceFr": "Il disait qu'il était fatigué.",
+          "sentenceDe": "Er sagte, dass er müde war.",
+          "tense": "imparfait",
+          "context": "Gefühle",
+          "level": "B1",
+          "importKey": "dire|imparfait|Il disait qu'il était fat"
+        },
+        {
+          "sentenceFr": "Je te dirai la vérité demain.",
+          "sentenceDe": "Ich sage dir morgen die Wahrheit.",
+          "tense": "futur_simple",
+          "context": "Versprechen",
+          "level": "B1",
+          "importKey": "dire|futur_simple|Je te dirai la vérité dem"
+        },
+        {
+          "sentenceFr": "Nous dirons notre avis à la réunion.",
+          "sentenceDe": "Wir sagen unsere Meinung im Meeting.",
+          "tense": "futur_simple",
+          "context": "Arbeit",
+          "level": "B1",
+          "importKey": "dire|futur_simple|Nous dirons notre avis à "
+        },
+        {
+          "sentenceFr": "Je dirais que c'est une bonne idée.",
+          "sentenceDe": "Ich würde sagen, dass es eine gute Idee ist.",
+          "tense": "conditionnel_present",
+          "context": "Diskussion",
+          "level": "B1",
+          "importKey": "dire|conditionnel_present|Je dirais que c'est une b"
+        },
+        {
+          "sentenceFr": "Tu pourrais lui dire bonjour.",
+          "sentenceDe": "Du könntest ihr Hallo sagen.",
+          "tense": "conditionnel_present",
+          "context": "Höflichkeit",
+          "level": "B1",
+          "importKey": "dire|conditionnel_present|Tu pourrais lui dire bonj"
+        },
+        {
+          "sentenceFr": "Il faut que tu lui dises la vérité.",
+          "sentenceDe": "Du musst ihr die Wahrheit sagen.",
+          "tense": "subjonctif_present",
+          "context": "Pflicht",
+          "level": "B1",
+          "importKey": "dire|subjonctif_present|Il faut que tu lui dises "
+        },
+        {
+          "sentenceFr": "Je ne pense pas qu'il dise la vérité.",
+          "sentenceDe": "Ich glaube nicht, dass er die Wahrheit sagt.",
+          "tense": "subjonctif_present",
+          "context": "Meinung",
+          "level": "B1",
+          "importKey": "dire|subjonctif_present|Je ne pense pas qu'il dis"
+        }
+      ],
+      "grammarInfo": {
+        "present": {
+          "tenseName": "Présent",
+          "rule": "Für Äußerungen, Aussagen und Mitteilungen.",
+          "formation": "Unregelmäßig: Beachte 2. Plural 'vous dites' (nicht disez!).",
+          "table": {
+            "je": "je dis",
+            "tu": "tu dis",
+            "il/elle/on": "il/elle/on dit",
+            "nous": "nous disons",
+            "vous": "vous dites",
+            "ils/elles": "ils/elles disent"
+          }
+        },
+        "passe_compose": {
+          "tenseName": "Passé composé",
+          "rule": "Für in der Vergangenheit gemachte Aussagen.",
+          "formation": "Hilfsverb avoir + Partizip Perfekt 'dit'.",
+          "table": {
+            "je": "j'ai dit",
+            "tu": "tu as dit",
+            "il/elle/on": "il/elle/on a dit",
+            "nous": "nous avons dit",
+            "vous": "vous avez dit",
+            "ils/elles": "ils/elles ont dit"
+          }
+        },
+        "imparfait": {
+          "tenseName": "Imparfait",
+          "rule": "Für wiederholte Aussagen oder erzählende Passagen.",
+          "formation": "Stamm dis- + Endungen (-ais, -ais, -ait, -ions, -iez, -aient).",
+          "table": {
+            "je": "je disais",
+            "tu": "tu disais",
+            "il/elle/on": "il/elle/on disait",
+            "nous": "nous disions",
+            "vous": "vous disiez",
+            "ils/elles": "ils/elles disaient"
+          }
+        },
+        "futur_simple": {
+          "tenseName": "Futur simple",
+          "rule": "Für künftige Aussagen und Ankündigungen.",
+          "formation": "Stamm dir- + Endungen (-ai, -as, -a, -ons, -ez, -ont).",
+          "table": {
+            "je": "je dirai",
+            "tu": "tu diras",
+            "il/elle/on": "il/elle/on dira",
+            "nous": "nous dirons",
+            "vous": "vous direz",
+            "ils/elles": "ils/elles diront"
+          }
+        },
+        "conditionnel_present": {
+          "tenseName": "Conditionnel présent",
+          "rule": "Für Höflichkeit, Vermutungen und hypothetische Aussagen.",
+          "formation": "Stamm dir- + Imparfait-Endungen (-ais, -ais, -ait, -ions, -iez, -aient).",
+          "table": {
+            "je": "je dirais",
+            "tu": "tu dirais",
+            "il/elle/on": "il/elle/on dirait",
+            "nous": "nous dirions",
+            "vous": "vous diriez",
+            "ils/elles": "ils/elles diraient"
+          }
+        },
+        "subjonctif_present": {
+          "tenseName": "Subjonctif présent",
+          "rule": "Nach Fordern, Wünschen oder Befehlen.",
+          "formation": "Stamm dis- + Endungen (-e, -es, -e, -ions, -iez, -ent).",
+          "table": {
+            "je": "que je dise",
+            "tu": "que tu dises",
+            "il/elle/on": "qu'il/elle/on dise",
+            "nous": "que nous disions",
+            "vous": "que vous disiez",
+            "ils/elles": "qu'ils/elles disent"
+          }
+        }
+      }
+    },
+    {
+      "importKey": "pouvoir",
+      "infinitive": "pouvoir",
+      "translationDe": "können",
+      "group": "irregular",
+      "auxiliary": "avoir",
+      "reflexive": false,
+      "forms": [
+        {
+          "importKey": "pouvoir|present|je",
+          "tense": "present",
+          "person": "je",
+          "form": "peux",
+          "irregular": true
+        },
+        {
+          "importKey": "pouvoir|present|tu",
+          "tense": "present",
+          "person": "tu",
+          "form": "peux",
+          "irregular": true
+        },
+        {
+          "importKey": "pouvoir|present|il/elle/on",
+          "tense": "present",
+          "person": "il/elle/on",
+          "form": "peut",
+          "irregular": true
+        },
+        {
+          "importKey": "pouvoir|present|nous",
+          "tense": "present",
+          "person": "nous",
+          "form": "pouvons",
+          "irregular": true
+        },
+        {
+          "importKey": "pouvoir|present|vous",
+          "tense": "present",
+          "person": "vous",
+          "form": "pouvez",
+          "irregular": true
+        },
+        {
+          "importKey": "pouvoir|present|ils/elles",
+          "tense": "present",
+          "person": "ils/elles",
+          "form": "peuvent",
+          "irregular": true
+        },
+        {
+          "importKey": "pouvoir|imparfait|je",
+          "tense": "imparfait",
+          "person": "je",
+          "form": "pouvais",
+          "irregular": true
+        },
+        {
+          "importKey": "pouvoir|imparfait|tu",
+          "tense": "imparfait",
+          "person": "tu",
+          "form": "pouvais",
+          "irregular": true
+        },
+        {
+          "importKey": "pouvoir|imparfait|il/elle/on",
+          "tense": "imparfait",
+          "person": "il/elle/on",
+          "form": "pouvait",
+          "irregular": true
+        },
+        {
+          "importKey": "pouvoir|imparfait|nous",
+          "tense": "imparfait",
+          "person": "nous",
+          "form": "pouvions",
+          "irregular": true
+        },
+        {
+          "importKey": "pouvoir|imparfait|vous",
+          "tense": "imparfait",
+          "person": "vous",
+          "form": "pouviez",
+          "irregular": true
+        },
+        {
+          "importKey": "pouvoir|imparfait|ils/elles",
+          "tense": "imparfait",
+          "person": "ils/elles",
+          "form": "pouvaient",
+          "irregular": true
+        },
+        {
+          "importKey": "pouvoir|futur_simple|je",
+          "tense": "futur_simple",
+          "person": "je",
+          "form": "pourrai",
+          "irregular": true
+        },
+        {
+          "importKey": "pouvoir|futur_simple|tu",
+          "tense": "futur_simple",
+          "person": "tu",
+          "form": "pourras",
+          "irregular": true
+        },
+        {
+          "importKey": "pouvoir|futur_simple|il/elle/on",
+          "tense": "futur_simple",
+          "person": "il/elle/on",
+          "form": "pourra",
+          "irregular": true
+        },
+        {
+          "importKey": "pouvoir|futur_simple|nous",
+          "tense": "futur_simple",
+          "person": "nous",
+          "form": "pourrons",
+          "irregular": true
+        },
+        {
+          "importKey": "pouvoir|futur_simple|vous",
+          "tense": "futur_simple",
+          "person": "vous",
+          "form": "pourrez",
+          "irregular": true
+        },
+        {
+          "importKey": "pouvoir|futur_simple|ils/elles",
+          "tense": "futur_simple",
+          "person": "ils/elles",
+          "form": "pourront",
+          "irregular": true
+        },
+        {
+          "importKey": "pouvoir|conditionnel_present|je",
+          "tense": "conditionnel_present",
+          "person": "je",
+          "form": "pourrais",
+          "irregular": true
+        },
+        {
+          "importKey": "pouvoir|conditionnel_present|tu",
+          "tense": "conditionnel_present",
+          "person": "tu",
+          "form": "pourrais",
+          "irregular": true
+        },
+        {
+          "importKey": "pouvoir|conditionnel_present|il/elle/on",
+          "tense": "conditionnel_present",
+          "person": "il/elle/on",
+          "form": "pourrait",
+          "irregular": true
+        },
+        {
+          "importKey": "pouvoir|conditionnel_present|nous",
+          "tense": "conditionnel_present",
+          "person": "nous",
+          "form": "pourrions",
+          "irregular": true
+        },
+        {
+          "importKey": "pouvoir|conditionnel_present|vous",
+          "tense": "conditionnel_present",
+          "person": "vous",
+          "form": "pourriez",
+          "irregular": true
+        },
+        {
+          "importKey": "pouvoir|conditionnel_present|ils/elles",
+          "tense": "conditionnel_present",
+          "person": "ils/elles",
+          "form": "pourraient",
+          "irregular": true
+        },
+        {
+          "importKey": "pouvoir|subjonctif_present|que je",
+          "tense": "subjonctif_present",
+          "person": "que je",
+          "form": "puisse",
+          "irregular": true
+        },
+        {
+          "importKey": "pouvoir|subjonctif_present|que tu",
+          "tense": "subjonctif_present",
+          "person": "que tu",
+          "form": "puisses",
+          "irregular": true
+        },
+        {
+          "importKey": "pouvoir|subjonctif_present|qu'il/elle/on",
+          "tense": "subjonctif_present",
+          "person": "qu'il/elle/on",
+          "form": "puisse",
+          "irregular": true
+        },
+        {
+          "importKey": "pouvoir|subjonctif_present|que nous",
+          "tense": "subjonctif_present",
+          "person": "que nous",
+          "form": "puissions",
+          "irregular": true
+        },
+        {
+          "importKey": "pouvoir|subjonctif_present|que vous",
+          "tense": "subjonctif_present",
+          "person": "que vous",
+          "form": "puissiez",
+          "irregular": true
+        },
+        {
+          "importKey": "pouvoir|subjonctif_present|qu'ils/elles",
+          "tense": "subjonctif_present",
+          "person": "qu'ils/elles",
+          "form": "puissent",
+          "irregular": true
+        },
+        {
+          "importKey": "pouvoir|passe_compose|je",
+          "tense": "passe_compose",
+          "person": "je",
+          "form": "ai pu",
+          "irregular": true
+        },
+        {
+          "importKey": "pouvoir|passe_compose|tu",
+          "tense": "passe_compose",
+          "person": "tu",
+          "form": "as pu",
+          "irregular": true
+        },
+        {
+          "importKey": "pouvoir|passe_compose|il/elle/on",
+          "tense": "passe_compose",
+          "person": "il/elle/on",
+          "form": "a pu",
+          "irregular": true
+        },
+        {
+          "importKey": "pouvoir|passe_compose|nous",
+          "tense": "passe_compose",
+          "person": "nous",
+          "form": "avons pu",
+          "irregular": true
+        },
+        {
+          "importKey": "pouvoir|passe_compose|vous",
+          "tense": "passe_compose",
+          "person": "vous",
+          "form": "avez pu",
+          "irregular": true
+        },
+        {
+          "importKey": "pouvoir|passe_compose|ils/elles",
+          "tense": "passe_compose",
+          "person": "ils/elles",
+          "form": "ont pu",
+          "irregular": true
+        }
+      ],
+      "examples": [
+        {
+          "sentenceFr": "Je peux t'aider.",
+          "sentenceDe": "Ich kann dir helfen.",
+          "tense": "present",
+          "context": "Hilfe",
+          "level": "B1",
+          "importKey": "pouvoir|present|Je peux t'aider."
+        },
+        {
+          "sentenceFr": "Nous pouvons commencer maintenant.",
+          "sentenceDe": "Wir können jetzt anfangen.",
+          "tense": "present",
+          "context": "Arbeit",
+          "level": "B1",
+          "importKey": "pouvoir|present|Nous pouvons commencer ma"
+        },
+        {
+          "sentenceFr": "J'ai pu finir le projet à temps.",
+          "sentenceDe": "Ich konnte das Projekt rechtzeitig beenden.",
+          "tense": "passe_compose",
+          "context": "Arbeit",
+          "level": "B1",
+          "importKey": "pouvoir|passe_compose|J'ai pu finir le projet à"
+        },
+        {
+          "sentenceFr": "Elle n'a pas pu venir.",
+          "sentenceDe": "Sie konnte nicht kommen.",
+          "tense": "passe_compose",
+          "context": "Absage",
+          "level": "B1",
+          "importKey": "pouvoir|passe_compose|Elle n'a pas pu venir."
+        },
+        {
+          "sentenceFr": "Quand j'étais jeune, je pouvais courir très vite.",
+          "sentenceDe": "Als ich jung war, konnte ich sehr schnell laufen.",
+          "tense": "imparfait",
+          "context": "Kindheit",
+          "level": "B1",
+          "importKey": "pouvoir|imparfait|Quand j'étais jeune, je p"
+        },
+        {
+          "sentenceFr": "Nous ne pouvions pas comprendre la question.",
+          "sentenceDe": "Wir konnten die Frage nicht verstehen.",
+          "tense": "imparfait",
+          "context": "Schule",
+          "level": "B1",
+          "importKey": "pouvoir|imparfait|Nous ne pouvions pas comp"
+        },
+        {
+          "sentenceFr": "Demain, je pourrai te répondre.",
+          "sentenceDe": "Morgen kann ich dir antworten.",
+          "tense": "futur_simple",
+          "context": "Kommunikation",
+          "level": "B1",
+          "importKey": "pouvoir|futur_simple|Demain, je pourrai te rép"
+        },
+        {
+          "sentenceFr": "Nous pourrons nous voir ce week-end.",
+          "sentenceDe": "Wir können uns am Wochenende sehen.",
+          "tense": "futur_simple",
+          "context": "Pläne",
+          "level": "B1",
+          "importKey": "pouvoir|futur_simple|Nous pourrons nous voir c"
+        },
+        {
+          "sentenceFr": "Je pourrais t'accompagner si tu veux.",
+          "sentenceDe": "Ich könnte dich begleiten, wenn du willst.",
+          "tense": "conditionnel_present",
+          "context": "Angebot",
+          "level": "B1",
+          "importKey": "pouvoir|conditionnel_present|Je pourrais t'accompagner"
+        },
+        {
+          "sentenceFr": "On pourrait prendre le train.",
+          "sentenceDe": "Wir könnten den Zug nehmen.",
+          "tense": "conditionnel_present",
+          "context": "Reisen",
+          "level": "B1",
+          "importKey": "pouvoir|conditionnel_present|On pourrait prendre le tr"
+        },
+        {
+          "sentenceFr": "Il faut que je puisse parler français.",
+          "sentenceDe": "Ich muss Französisch sprechen können.",
+          "tense": "subjonctif_present",
+          "context": "Sprache",
+          "level": "B1",
+          "importKey": "pouvoir|subjonctif_present|Il faut que je puisse par"
+        },
+        {
+          "sentenceFr": "Bien qu'elle puisse venir, elle reste à la maison.",
+          "sentenceDe": "Obwohl sie kommen kann, bleibt sie zu Hause.",
+          "tense": "subjonctif_present",
+          "context": "Entscheidung",
+          "level": "B1",
+          "importKey": "pouvoir|subjonctif_present|Bien qu'elle puisse venir"
+        }
+      ],
+      "grammarInfo": {
+        "present": {
+          "tenseName": "Présent",
+          "rule": "Drückt Fähigkeit, Möglichkeit oder Erlaubnis aus.",
+          "formation": "Unregelmäßig: peux, peux, peut, pouvons, pouvez, peuvent.",
+          "table": {
+            "je": "je peux",
+            "tu": "tu peux",
+            "il/elle/on": "il/elle/on peut",
+            "nous": "nous pouvons",
+            "vous": "vous pouvez",
+            "ils/elles": "ils/elles peuvent"
+          }
+        },
+        "passe_compose": {
+          "tenseName": "Passé composé",
+          "rule": "Für eine geglückte Möglichkeit/Handlung in der Vergangenheit.",
+          "formation": "Hilfsverb avoir + Partizip Perfekt 'pu'.",
+          "table": {
+            "je": "j'ai pu",
+            "tu": "tu as pu",
+            "il/elle/on": "il/elle/on a pu",
+            "nous": "nous avons pu",
+            "vous": "vous avez pu",
+            "ils/elles": "ils/elles ont pu"
+          }
+        },
+        "imparfait": {
+          "tenseName": "Imparfait",
+          "rule": "Für andauernde Fähigkeiten oder Umstände in der Vergangenheit.",
+          "formation": "Stamm pouv- + Endungen (-ais, -ais, -ait, -ions, -iez, -aient).",
+          "table": {
+            "je": "je pouvais",
+            "tu": "tu pouvais",
+            "il/elle/on": "il/elle/on pouvait",
+            "nous": "nous pouvions",
+            "vous": "vous pouviez",
+            "ils/elles": "ils/elles pouvaient"
+          }
+        },
+        "futur_simple": {
+          "tenseName": "Futur simple",
+          "rule": "Für künftige Möglichkeiten und Fähigkeiten.",
+          "formation": "Unregelmäßiger Stamm pourr- + Endungen (-ai, -as, -a, -ons, -ez, -ont).",
+          "table": {
+            "je": "je pourrai",
+            "tu": "tu pourras",
+            "il/elle/on": "il/elle/on pourra",
+            "nous": "nous pourrons",
+            "vous": "vous pourrez",
+            "ils/elles": "ils/elles pourront"
+          }
+        },
+        "conditionnel_present": {
+          "tenseName": "Conditionnel présent",
+          "rule": "Sehr häufig für höfliche Bitten ('Könnte ich...?').",
+          "formation": "Stamm pourr- + Imparfait-Endungen (-ais, -ais, -ait, -ions, -iez, -aient).",
+          "table": {
+            "je": "je pourrais",
+            "tu": "tu pourrais",
+            "il/elle/on": "il/elle/on pourrait",
+            "nous": "nous pourrions",
+            "vous": "vous pourriez",
+            "ils/elles": "ils/elles pourraient"
+          }
+        },
+        "subjonctif_present": {
+          "tenseName": "Subjonctif présent",
+          "rule": "Nach Wunsch-, Zweifel- oder Notwendigkeitsausdrücken.",
+          "formation": "Stamm puiss- + Endungen (-e, -es, -e, -ions, -iez, -ent).",
+          "table": {
+            "je": "que je puisse",
+            "tu": "que tu puisses",
+            "il/elle/on": "qu'il/elle/on puisse",
+            "nous": "que nous puissions",
+            "vous": "que vous puissiez",
+            "ils/elles": "qu'ils/elles puissent"
+          }
+        }
+      }
+    },
+    {
+      "importKey": "vouloir",
+      "infinitive": "vouloir",
+      "translationDe": "wollen",
+      "group": "irregular",
+      "auxiliary": "avoir",
+      "reflexive": false,
+      "forms": [
+        {
+          "importKey": "vouloir|present|je",
+          "tense": "present",
+          "person": "je",
+          "form": "veux",
+          "irregular": true
+        },
+        {
+          "importKey": "vouloir|present|tu",
+          "tense": "present",
+          "person": "tu",
+          "form": "veux",
+          "irregular": true
+        },
+        {
+          "importKey": "vouloir|present|il/elle/on",
+          "tense": "present",
+          "person": "il/elle/on",
+          "form": "veut",
+          "irregular": true
+        },
+        {
+          "importKey": "vouloir|present|nous",
+          "tense": "present",
+          "person": "nous",
+          "form": "voulons",
+          "irregular": true
+        },
+        {
+          "importKey": "vouloir|present|vous",
+          "tense": "present",
+          "person": "vous",
+          "form": "voulez",
+          "irregular": true
+        },
+        {
+          "importKey": "vouloir|present|ils/elles",
+          "tense": "present",
+          "person": "ils/elles",
+          "form": "veulent",
+          "irregular": true
+        },
+        {
+          "importKey": "vouloir|imparfait|je",
+          "tense": "imparfait",
+          "person": "je",
+          "form": "voulais",
+          "irregular": true
+        },
+        {
+          "importKey": "vouloir|imparfait|tu",
+          "tense": "imparfait",
+          "person": "tu",
+          "form": "voulais",
+          "irregular": true
+        },
+        {
+          "importKey": "vouloir|imparfait|il/elle/on",
+          "tense": "imparfait",
+          "person": "il/elle/on",
+          "form": "voulait",
+          "irregular": true
+        },
+        {
+          "importKey": "vouloir|imparfait|nous",
+          "tense": "imparfait",
+          "person": "nous",
+          "form": "voulions",
+          "irregular": true
+        },
+        {
+          "importKey": "vouloir|imparfait|vous",
+          "tense": "imparfait",
+          "person": "vous",
+          "form": "vouliez",
+          "irregular": true
+        },
+        {
+          "importKey": "vouloir|imparfait|ils/elles",
+          "tense": "imparfait",
+          "person": "ils/elles",
+          "form": "voulaient",
+          "irregular": true
+        },
+        {
+          "importKey": "vouloir|futur_simple|je",
+          "tense": "futur_simple",
+          "person": "je",
+          "form": "voudrai",
+          "irregular": true
+        },
+        {
+          "importKey": "vouloir|futur_simple|tu",
+          "tense": "futur_simple",
+          "person": "tu",
+          "form": "voudras",
+          "irregular": true
+        },
+        {
+          "importKey": "vouloir|futur_simple|il/elle/on",
+          "tense": "futur_simple",
+          "person": "il/elle/on",
+          "form": "voudra",
+          "irregular": true
+        },
+        {
+          "importKey": "vouloir|futur_simple|nous",
+          "tense": "futur_simple",
+          "person": "nous",
+          "form": "voudrons",
+          "irregular": true
+        },
+        {
+          "importKey": "vouloir|futur_simple|vous",
+          "tense": "futur_simple",
+          "person": "vous",
+          "form": "voudrez",
+          "irregular": true
+        },
+        {
+          "importKey": "vouloir|futur_simple|ils/elles",
+          "tense": "futur_simple",
+          "person": "ils/elles",
+          "form": "voudront",
+          "irregular": true
+        },
+        {
+          "importKey": "vouloir|conditionnel_present|je",
+          "tense": "conditionnel_present",
+          "person": "je",
+          "form": "voudrais",
+          "irregular": true
+        },
+        {
+          "importKey": "vouloir|conditionnel_present|tu",
+          "tense": "conditionnel_present",
+          "person": "tu",
+          "form": "voudrais",
+          "irregular": true
+        },
+        {
+          "importKey": "vouloir|conditionnel_present|il/elle/on",
+          "tense": "conditionnel_present",
+          "person": "il/elle/on",
+          "form": "voudrait",
+          "irregular": true
+        },
+        {
+          "importKey": "vouloir|conditionnel_present|nous",
+          "tense": "conditionnel_present",
+          "person": "nous",
+          "form": "voudrions",
+          "irregular": true
+        },
+        {
+          "importKey": "vouloir|conditionnel_present|vous",
+          "tense": "conditionnel_present",
+          "person": "vous",
+          "form": "voudriez",
+          "irregular": true
+        },
+        {
+          "importKey": "vouloir|conditionnel_present|ils/elles",
+          "tense": "conditionnel_present",
+          "person": "ils/elles",
+          "form": "voudraient",
+          "irregular": true
+        },
+        {
+          "importKey": "vouloir|subjonctif_present|que je",
+          "tense": "subjonctif_present",
+          "person": "que je",
+          "form": "veuille",
+          "irregular": true
+        },
+        {
+          "importKey": "vouloir|subjonctif_present|que tu",
+          "tense": "subjonctif_present",
+          "person": "que tu",
+          "form": "veuilles",
+          "irregular": true
+        },
+        {
+          "importKey": "vouloir|subjonctif_present|qu'il/elle/on",
+          "tense": "subjonctif_present",
+          "person": "qu'il/elle/on",
+          "form": "veuille",
+          "irregular": true
+        },
+        {
+          "importKey": "vouloir|subjonctif_present|que nous",
+          "tense": "subjonctif_present",
+          "person": "que nous",
+          "form": "voulions",
+          "irregular": true
+        },
+        {
+          "importKey": "vouloir|subjonctif_present|que vous",
+          "tense": "subjonctif_present",
+          "person": "que vous",
+          "form": "vouliez",
+          "irregular": true
+        },
+        {
+          "importKey": "vouloir|subjonctif_present|qu'ils/elles",
+          "tense": "subjonctif_present",
+          "person": "qu'ils/elles",
+          "form": "veuillent",
+          "irregular": true
+        },
+        {
+          "importKey": "vouloir|passe_compose|je",
+          "tense": "passe_compose",
+          "person": "je",
+          "form": "ai voulu",
+          "irregular": true
+        },
+        {
+          "importKey": "vouloir|passe_compose|tu",
+          "tense": "passe_compose",
+          "person": "tu",
+          "form": "as voulu",
+          "irregular": true
+        },
+        {
+          "importKey": "vouloir|passe_compose|il/elle/on",
+          "tense": "passe_compose",
+          "person": "il/elle/on",
+          "form": "a voulu",
+          "irregular": true
+        },
+        {
+          "importKey": "vouloir|passe_compose|nous",
+          "tense": "passe_compose",
+          "person": "nous",
+          "form": "avons voulu",
+          "irregular": true
+        },
+        {
+          "importKey": "vouloir|passe_compose|vous",
+          "tense": "passe_compose",
+          "person": "vous",
+          "form": "avez voulu",
+          "irregular": true
+        },
+        {
+          "importKey": "vouloir|passe_compose|ils/elles",
+          "tense": "passe_compose",
+          "person": "ils/elles",
+          "form": "ont voulu",
+          "irregular": true
+        }
+      ],
+      "examples": [
+        {
+          "sentenceFr": "Je veux apprendre le français.",
+          "sentenceDe": "Ich will Französisch lernen.",
+          "tense": "present",
+          "context": "Sprache",
+          "level": "B1",
+          "importKey": "vouloir|present|Je veux apprendre le fran"
+        },
+        {
+          "sentenceFr": "Nous voulons commander une pizza.",
+          "sentenceDe": "Wir wollen eine Pizza bestellen.",
+          "tense": "present",
+          "context": "Essen",
+          "level": "B1",
+          "importKey": "vouloir|present|Nous voulons commander un"
+        },
+        {
+          "sentenceFr": "J'ai voulu t'appeler, mais tu ne répondais pas.",
+          "sentenceDe": "Ich wollte dich anrufen, aber du hast nicht abgenommen.",
+          "tense": "passe_compose",
+          "context": "Kommunikation",
+          "level": "B1",
+          "importKey": "vouloir|passe_compose|J'ai voulu t'appeler, mai"
+        },
+        {
+          "sentenceFr": "Ils ont voulu nous aider.",
+          "sentenceDe": "Sie wollten uns helfen.",
+          "tense": "passe_compose",
+          "context": "Hilfe",
+          "level": "B1",
+          "importKey": "vouloir|passe_compose|Ils ont voulu nous aider."
+        },
+        {
+          "sentenceFr": "Quand j'étais enfant, je voulais devenir médecin.",
+          "sentenceDe": "Als Kind wollte ich Arzt werden.",
+          "tense": "imparfait",
+          "context": "Beruf",
+          "level": "B1",
+          "importKey": "vouloir|imparfait|Quand j'étais enfant, je "
+        },
+        {
+          "sentenceFr": "Elle voulait toujours voyager.",
+          "sentenceDe": "Sie wollte immer reisen.",
+          "tense": "imparfait",
+          "context": "Träume",
+          "level": "B1",
+          "importKey": "vouloir|imparfait|Elle voulait toujours voy"
+        },
+        {
+          "sentenceFr": "Demain, je voudrai parler au responsable.",
+          "sentenceDe": "Morgen möchte ich mit dem Verantwortlichen sprechen.",
+          "tense": "futur_simple",
+          "context": "Arbeit",
+          "level": "B1",
+          "importKey": "vouloir|futur_simple|Demain, je voudrai parler"
+        },
+        {
+          "sentenceFr": "Nous voudrons réserver une table.",
+          "sentenceDe": "Wir werden einen Tisch reservieren wollen.",
+          "tense": "futur_simple",
+          "context": "Restaurant",
+          "level": "B1",
+          "importKey": "vouloir|futur_simple|Nous voudrons réserver un"
+        },
+        {
+          "sentenceFr": "Je voudrais un café, s'il vous plaît.",
+          "sentenceDe": "Ich möchte einen Kaffee, bitte.",
+          "tense": "conditionnel_present",
+          "context": "Höflichkeit",
+          "level": "B1",
+          "importKey": "vouloir|conditionnel_present|Je voudrais un café, s'il"
+        },
+        {
+          "sentenceFr": "Nous voudrions visiter le musée.",
+          "sentenceDe": "Wir würden gern das Museum besuchen.",
+          "tense": "conditionnel_present",
+          "context": "Kultur",
+          "level": "B1",
+          "importKey": "vouloir|conditionnel_present|Nous voudrions visiter le"
+        },
+        {
+          "sentenceFr": "Il faut que tu veuilles changer.",
+          "sentenceDe": "Du musst ändern wollen.",
+          "tense": "subjonctif_present",
+          "context": "Entwicklung",
+          "level": "B1",
+          "importKey": "vouloir|subjonctif_present|Il faut que tu veuilles c"
+        },
+        {
+          "sentenceFr": "Bien que je veuille partir, je reste encore un peu.",
+          "sentenceDe": "Obwohl ich gehen möchte, bleibe ich noch etwas.",
+          "tense": "subjonctif_present",
+          "context": "Entscheidung",
+          "level": "B1",
+          "importKey": "vouloir|subjonctif_present|Bien que je veuille parti"
+        }
+      ],
+      "grammarInfo": {
+        "present": {
+          "tenseName": "Présent",
+          "rule": "Drückt Wünsche, Absichten und Willen aus.",
+          "formation": "Unregelmäßig: veux, veux, veut, voulons, voulez, veulent.",
+          "table": {
+            "je": "je veux",
+            "tu": "tu veux",
+            "il/elle/on": "il/elle/on veut",
+            "nous": "nous voulons",
+            "vous": "vous voulez",
+            "ils/elles": "ils/elles veulent"
+          }
+        },
+        "passe_compose": {
+          "tenseName": "Passé composé",
+          "rule": "Für einen gefassten Entschluss in der Vergangenheit.",
+          "formation": "Hilfsverb avoir + Partizip Perfekt 'voulu'.",
+          "table": {
+            "je": "j'ai voulu",
+            "tu": "tu as voulu",
+            "il/elle/on": "il/elle/on a voulu",
+            "nous": "nous avons voulu",
+            "vous": "vous avez voulu",
+            "ils/elles": "ils/elles ont voulu"
+          }
+        },
+        "imparfait": {
+          "tenseName": "Imparfait",
+          "rule": "Für andauernde Wünsche oder Absichten der Vergangenheit.",
+          "formation": "Stamm voul- + Endungen (-ais, -ais, -ait, -ions, -iez, -aient).",
+          "table": {
+            "je": "je voulais",
+            "tu": "tu voulais",
+            "il/elle/on": "il/elle/on voulait",
+            "nous": "nous voulions",
+            "vous": "vous vouliez",
+            "ils/elles": "ils/elles voulaient"
+          }
+        },
+        "futur_simple": {
+          "tenseName": "Futur simple",
+          "rule": "Für künftige Wünsche.",
+          "formation": "Unregelmäßiger Stamm voudr- + Endungen (-ai, -as, -a, -ons, -ez, -ont).",
+          "table": {
+            "je": "je voudrai",
+            "tu": "tu voudras",
+            "il/elle/on": "il/elle/on voudra",
+            "nous": "nous voudrons",
+            "vous": "vous voudrez",
+            "ils/elles": "ils/elles voudront"
+          }
+        },
+        "conditionnel_present": {
+          "tenseName": "Conditionnel présent",
+          "rule": "Standardformel für Höflichkeit ('je voudrais' = 'ich hätte gern').",
+          "formation": "Stamm voudr- + Imparfait-Endungen (-ais, -ais, -ait, -ions, -iez, -aient).",
+          "table": {
+            "je": "je voudrais",
+            "tu": "tu voudrais",
+            "il/elle/on": "il/elle/on voudrait",
+            "nous": "nous voudrions",
+            "vous": "vous voudriez",
+            "ils/elles": "ils/elles voudraient"
+          }
+        },
+        "subjonctif_present": {
+          "tenseName": "Subjonctif présent",
+          "rule": "Wird nach Subjonctif-Auslösern verwendet.",
+          "formation": "Stamm veuill- (Sg. & 3. Pl.) / voul- (1. & 2. Pl.).",
+          "table": {
+            "je": "que je veuille",
+            "tu": "que tu veuilles",
+            "il/elle/on": "qu'il/elle/on veuille",
+            "nous": "que nous voulions",
+            "vous": "que vous vouliez",
+            "ils/elles": "qu'ils/elles veuillent"
+          }
+        }
+      }
+    },
+    {
+      "importKey": "devoir",
+      "infinitive": "devoir",
+      "translationDe": "müssen / sollen",
+      "group": "irregular",
+      "auxiliary": "avoir",
+      "reflexive": false,
+      "forms": [
+        {
+          "importKey": "devoir|present|je",
+          "tense": "present",
+          "person": "je",
+          "form": "dois",
+          "irregular": true
+        },
+        {
+          "importKey": "devoir|present|tu",
+          "tense": "present",
+          "person": "tu",
+          "form": "dois",
+          "irregular": true
+        },
+        {
+          "importKey": "devoir|present|il/elle/on",
+          "tense": "present",
+          "person": "il/elle/on",
+          "form": "doit",
+          "irregular": true
+        },
+        {
+          "importKey": "devoir|present|nous",
+          "tense": "present",
+          "person": "nous",
+          "form": "devons",
+          "irregular": true
+        },
+        {
+          "importKey": "devoir|present|vous",
+          "tense": "present",
+          "person": "vous",
+          "form": "devez",
+          "irregular": true
+        },
+        {
+          "importKey": "devoir|present|ils/elles",
+          "tense": "present",
+          "person": "ils/elles",
+          "form": "doivent",
+          "irregular": true
+        },
+        {
+          "importKey": "devoir|imparfait|je",
+          "tense": "imparfait",
+          "person": "je",
+          "form": "devais",
+          "irregular": true
+        },
+        {
+          "importKey": "devoir|imparfait|tu",
+          "tense": "imparfait",
+          "person": "tu",
+          "form": "devais",
+          "irregular": true
+        },
+        {
+          "importKey": "devoir|imparfait|il/elle/on",
+          "tense": "imparfait",
+          "person": "il/elle/on",
+          "form": "devait",
+          "irregular": true
+        },
+        {
+          "importKey": "devoir|imparfait|nous",
+          "tense": "imparfait",
+          "person": "nous",
+          "form": "devions",
+          "irregular": true
+        },
+        {
+          "importKey": "devoir|imparfait|vous",
+          "tense": "imparfait",
+          "person": "vous",
+          "form": "deviez",
+          "irregular": true
+        },
+        {
+          "importKey": "devoir|imparfait|ils/elles",
+          "tense": "imparfait",
+          "person": "ils/elles",
+          "form": "devaient",
+          "irregular": true
+        },
+        {
+          "importKey": "devoir|futur_simple|je",
+          "tense": "futur_simple",
+          "person": "je",
+          "form": "devrai",
+          "irregular": true
+        },
+        {
+          "importKey": "devoir|futur_simple|tu",
+          "tense": "futur_simple",
+          "person": "tu",
+          "form": "devras",
+          "irregular": true
+        },
+        {
+          "importKey": "devoir|futur_simple|il/elle/on",
+          "tense": "futur_simple",
+          "person": "il/elle/on",
+          "form": "devra",
+          "irregular": true
+        },
+        {
+          "importKey": "devoir|futur_simple|nous",
+          "tense": "futur_simple",
+          "person": "nous",
+          "form": "devrons",
+          "irregular": true
+        },
+        {
+          "importKey": "devoir|futur_simple|vous",
+          "tense": "futur_simple",
+          "person": "vous",
+          "form": "devrez",
+          "irregular": true
+        },
+        {
+          "importKey": "devoir|futur_simple|ils/elles",
+          "tense": "futur_simple",
+          "person": "ils/elles",
+          "form": "devront",
+          "irregular": true
+        },
+        {
+          "importKey": "devoir|conditionnel_present|je",
+          "tense": "conditionnel_present",
+          "person": "je",
+          "form": "devrais",
+          "irregular": true
+        },
+        {
+          "importKey": "devoir|conditionnel_present|tu",
+          "tense": "conditionnel_present",
+          "person": "tu",
+          "form": "devrais",
+          "irregular": true
+        },
+        {
+          "importKey": "devoir|conditionnel_present|il/elle/on",
+          "tense": "conditionnel_present",
+          "person": "il/elle/on",
+          "form": "devrait",
+          "irregular": true
+        },
+        {
+          "importKey": "devoir|conditionnel_present|nous",
+          "tense": "conditionnel_present",
+          "person": "nous",
+          "form": "devrions",
+          "irregular": true
+        },
+        {
+          "importKey": "devoir|conditionnel_present|vous",
+          "tense": "conditionnel_present",
+          "person": "vous",
+          "form": "devriez",
+          "irregular": true
+        },
+        {
+          "importKey": "devoir|conditionnel_present|ils/elles",
+          "tense": "conditionnel_present",
+          "person": "ils/elles",
+          "form": "devraient",
+          "irregular": true
+        },
+        {
+          "importKey": "devoir|subjonctif_present|que je",
+          "tense": "subjonctif_present",
+          "person": "que je",
+          "form": "doive",
+          "irregular": true
+        },
+        {
+          "importKey": "devoir|subjonctif_present|que tu",
+          "tense": "subjonctif_present",
+          "person": "que tu",
+          "form": "doives",
+          "irregular": true
+        },
+        {
+          "importKey": "devoir|subjonctif_present|qu'il/elle/on",
+          "tense": "subjonctif_present",
+          "person": "qu'il/elle/on",
+          "form": "doive",
+          "irregular": true
+        },
+        {
+          "importKey": "devoir|subjonctif_present|que nous",
+          "tense": "subjonctif_present",
+          "person": "que nous",
+          "form": "devions",
+          "irregular": true
+        },
+        {
+          "importKey": "devoir|subjonctif_present|que vous",
+          "tense": "subjonctif_present",
+          "person": "que vous",
+          "form": "deviez",
+          "irregular": true
+        },
+        {
+          "importKey": "devoir|subjonctif_present|qu'ils/elles",
+          "tense": "subjonctif_present",
+          "person": "qu'ils/elles",
+          "form": "doivent",
+          "irregular": true
+        },
+        {
+          "importKey": "devoir|passe_compose|je",
+          "tense": "passe_compose",
+          "person": "je",
+          "form": "ai dû",
+          "irregular": true
+        },
+        {
+          "importKey": "devoir|passe_compose|tu",
+          "tense": "passe_compose",
+          "person": "tu",
+          "form": "as dû",
+          "irregular": true
+        },
+        {
+          "importKey": "devoir|passe_compose|il/elle/on",
+          "tense": "passe_compose",
+          "person": "il/elle/on",
+          "form": "a dû",
+          "irregular": true
+        },
+        {
+          "importKey": "devoir|passe_compose|nous",
+          "tense": "passe_compose",
+          "person": "nous",
+          "form": "avons dû",
+          "irregular": true
+        },
+        {
+          "importKey": "devoir|passe_compose|vous",
+          "tense": "passe_compose",
+          "person": "vous",
+          "form": "avez dû",
+          "irregular": true
+        },
+        {
+          "importKey": "devoir|passe_compose|ils/elles",
+          "tense": "passe_compose",
+          "person": "ils/elles",
+          "form": "ont dû",
+          "irregular": true
+        }
+      ],
+      "examples": [
+        {
+          "sentenceFr": "Je dois partir maintenant.",
+          "sentenceDe": "Ich muss jetzt gehen.",
+          "tense": "present",
+          "context": "Alltag",
+          "level": "B1",
+          "importKey": "devoir|present|Je dois partir maintenant"
+        },
+        {
+          "sentenceFr": "Nous devons finir le travail aujourd'hui.",
+          "sentenceDe": "Wir müssen die Arbeit heute beenden.",
+          "tense": "present",
+          "context": "Arbeit",
+          "level": "B1",
+          "importKey": "devoir|present|Nous devons finir le trav"
+        },
+        {
+          "sentenceFr": "J'ai dû attendre une heure.",
+          "sentenceDe": "Ich musste eine Stunde warten.",
+          "tense": "passe_compose",
+          "context": "Alltag",
+          "level": "B1",
+          "importKey": "devoir|passe_compose|J'ai dû attendre une heur"
+        },
+        {
+          "sentenceFr": "Elle a dû annuler son rendez-vous.",
+          "sentenceDe": "Sie musste ihren Termin absagen.",
+          "tense": "passe_compose",
+          "context": "Termine",
+          "level": "B1",
+          "importKey": "devoir|passe_compose|Elle a dû annuler son ren"
+        },
+        {
+          "sentenceFr": "Quand j'étais étudiant, je devais étudier le week-end.",
+          "sentenceDe": "Als Student musste ich am Wochenende lernen.",
+          "tense": "imparfait",
+          "context": "Studium",
+          "level": "B1",
+          "importKey": "devoir|imparfait|Quand j'étais étudiant, j"
+        },
+        {
+          "sentenceFr": "Nous devions prendre le train à huit heures.",
+          "sentenceDe": "Wir mussten um acht Uhr den Zug nehmen.",
+          "tense": "imparfait",
+          "context": "Reisen",
+          "level": "B1",
+          "importKey": "devoir|imparfait|Nous devions prendre le t"
+        },
+        {
+          "sentenceFr": "Demain, je devrai me lever tôt.",
+          "sentenceDe": "Morgen muss ich früh aufstehen.",
+          "tense": "futur_simple",
+          "context": "Alltag",
+          "level": "B1",
+          "importKey": "devoir|futur_simple|Demain, je devrai me leve"
+        },
+        {
+          "sentenceFr": "Nous devrons payer les factures.",
+          "sentenceDe": "Wir werden die Rechnungen bezahlen müssen.",
+          "tense": "futur_simple",
+          "context": "Finanzen",
+          "level": "B1",
+          "importKey": "devoir|futur_simple|Nous devrons payer les fa"
+        },
+        {
+          "sentenceFr": "Tu devrais parler avec elle.",
+          "sentenceDe": "Du solltest mit ihr sprechen.",
+          "tense": "conditionnel_present",
+          "context": "Rat",
+          "level": "B1",
+          "importKey": "devoir|conditionnel_present|Tu devrais parler avec el"
+        },
+        {
+          "sentenceFr": "Je devrais faire plus d'exercices.",
+          "sentenceDe": "Ich sollte mehr Übungen machen.",
+          "tense": "conditionnel_present",
+          "context": "Lernen",
+          "level": "B1",
+          "importKey": "devoir|conditionnel_present|Je devrais faire plus d'e"
+        },
+        {
+          "sentenceFr": "Il faut que je doive partir tôt.",
+          "sentenceDe": "Es ist notwendig, dass ich früh gehen muss.",
+          "tense": "subjonctif_present",
+          "context": "Pflicht",
+          "level": "B1",
+          "importKey": "devoir|subjonctif_present|Il faut que je doive part"
+        },
+        {
+          "sentenceFr": "Bien qu'ils doivent travailler, ils sortent.",
+          "sentenceDe": "Obwohl sie arbeiten müssen, gehen sie aus.",
+          "tense": "subjonctif_present",
+          "context": "Freizeit",
+          "level": "B1",
+          "importKey": "devoir|subjonctif_present|Bien qu'ils doivent trava"
+        }
+      ],
+      "grammarInfo": {
+        "present": {
+          "tenseName": "Présent",
+          "rule": "Drückt Verpflichtung, Notwendigkeit oder Vermutung aus.",
+          "formation": "Unregelmäßig: dois, dois, doit, devons, devez, doivent.",
+          "table": {
+            "je": "je dois",
+            "tu": "tu dois",
+            "il/elle/on": "il/elle/on doit",
+            "nous": "nous devons",
+            "vous": "vous devez",
+            "ils/elles": "ils/elles doivent"
+          }
+        },
+        "passe_compose": {
+          "tenseName": "Passé composé",
+          "rule": "Für ein eingetretenes Müssen oder eine logische Schlussfolgerung.",
+          "formation": "Hilfsverb avoir + Partizip Perfekt 'dû' (mit Cirkonflex im Maskulinum Singular).",
+          "table": {
+            "je": "j'ai dû",
+            "tu": "tu as dû",
+            "il/elle/on": "il/elle/on a dû",
+            "nous": "nous avons dû",
+            "vous": "vous avez dû",
+            "ils/elles": "ils/elles ont dû"
+          }
+        },
+        "imparfait": {
+          "tenseName": "Imparfait",
+          "rule": "Für frühere Pflichten oder Verpflichtungen.",
+          "formation": "Stamm dev- + Endungen (-ais, -ais, -ait, -ions, -iez, -aient).",
+          "table": {
+            "je": "je devais",
+            "tu": "tu devais",
+            "il/elle/on": "il/elle/on devait",
+            "nous": "nous devions",
+            "vous": "vous deviez",
+            "ils/elles": "ils/elles devaient"
+          }
+        },
+        "futur_simple": {
+          "tenseName": "Futur simple",
+          "rule": "Für zukünftige Pflichten.",
+          "formation": "Unregelmäßiger Stamm devr- + Endungen (-ai, -as, -a, -ons, -ez, -ont).",
+          "table": {
+            "je": "je devrai",
+            "tu": "tu devras",
+            "il/elle/on": "il/elle/on devra",
+            "nous": "nous devrons",
+            "vous": "vous devrez",
+            "ils/elles": "ils/elles devront"
+          }
+        },
+        "conditionnel_present": {
+          "tenseName": "Conditionnel présent",
+          "rule": "Standardform für Ratschläge ('tu devrais...' = 'du solltest...').",
+          "formation": "Stamm devr- + Imparfait-Endungen (-ais, -ais, -ait, -ions, -iez, -aient).",
+          "table": {
+            "je": "je devrais",
+            "tu": "tu devrais",
+            "il/elle/on": "il/elle/on devrait",
+            "nous": "nous devrions",
+            "vous": "vous devriez",
+            "ils/elles": "ils/elles devraient"
+          }
+        },
+        "subjonctif_present": {
+          "tenseName": "Subjonctif présent",
+          "rule": "Nach Subjonctif-Auslösern.",
+          "formation": "Stamm doiv- (Sg. & 3. Pl.) / dev- (1. & 2. Pl.).",
+          "table": {
+            "je": "que je doive",
+            "tu": "que tu doives",
+            "il/elle/on": "qu'il/elle/on doive",
+            "nous": "que nous devions",
+            "vous": "que vous deviez",
+            "ils/elles": "qu'ils/elles doivent"
+          }
+        }
+      }
+    },
+    {
+      "importKey": "savoir",
+      "infinitive": "savoir",
+      "translationDe": "wissen / können",
+      "group": "irregular",
+      "auxiliary": "avoir",
+      "reflexive": false,
+      "forms": [
+        {
+          "importKey": "savoir|present|je",
+          "tense": "present",
+          "person": "je",
+          "form": "sais",
+          "irregular": true
+        },
+        {
+          "importKey": "savoir|present|tu",
+          "tense": "present",
+          "person": "tu",
+          "form": "sais",
+          "irregular": true
+        },
+        {
+          "importKey": "savoir|present|il/elle/on",
+          "tense": "present",
+          "person": "il/elle/on",
+          "form": "sait",
+          "irregular": true
+        },
+        {
+          "importKey": "savoir|present|nous",
+          "tense": "present",
+          "person": "nous",
+          "form": "savons",
+          "irregular": true
+        },
+        {
+          "importKey": "savoir|present|vous",
+          "tense": "present",
+          "person": "vous",
+          "form": "savez",
+          "irregular": true
+        },
+        {
+          "importKey": "savoir|present|ils/elles",
+          "tense": "present",
+          "person": "ils/elles",
+          "form": "savent",
+          "irregular": true
+        },
+        {
+          "importKey": "savoir|imparfait|je",
+          "tense": "imparfait",
+          "person": "je",
+          "form": "savais",
+          "irregular": true
+        },
+        {
+          "importKey": "savoir|imparfait|tu",
+          "tense": "imparfait",
+          "person": "tu",
+          "form": "savais",
+          "irregular": true
+        },
+        {
+          "importKey": "savoir|imparfait|il/elle/on",
+          "tense": "imparfait",
+          "person": "il/elle/on",
+          "form": "savait",
+          "irregular": true
+        },
+        {
+          "importKey": "savoir|imparfait|nous",
+          "tense": "imparfait",
+          "person": "nous",
+          "form": "savions",
+          "irregular": true
+        },
+        {
+          "importKey": "savoir|imparfait|vous",
+          "tense": "imparfait",
+          "person": "vous",
+          "form": "saviez",
+          "irregular": true
+        },
+        {
+          "importKey": "savoir|imparfait|ils/elles",
+          "tense": "imparfait",
+          "person": "ils/elles",
+          "form": "savaient",
+          "irregular": true
+        },
+        {
+          "importKey": "savoir|futur_simple|je",
+          "tense": "futur_simple",
+          "person": "je",
+          "form": "saurai",
+          "irregular": true
+        },
+        {
+          "importKey": "savoir|futur_simple|tu",
+          "tense": "futur_simple",
+          "person": "tu",
+          "form": "sauras",
+          "irregular": true
+        },
+        {
+          "importKey": "savoir|futur_simple|il/elle/on",
+          "tense": "futur_simple",
+          "person": "il/elle/on",
+          "form": "saura",
+          "irregular": true
+        },
+        {
+          "importKey": "savoir|futur_simple|nous",
+          "tense": "futur_simple",
+          "person": "nous",
+          "form": "saurons",
+          "irregular": true
+        },
+        {
+          "importKey": "savoir|futur_simple|vous",
+          "tense": "futur_simple",
+          "person": "vous",
+          "form": "saurez",
+          "irregular": true
+        },
+        {
+          "importKey": "savoir|futur_simple|ils/elles",
+          "tense": "futur_simple",
+          "person": "ils/elles",
+          "form": "sauront",
+          "irregular": true
+        },
+        {
+          "importKey": "savoir|conditionnel_present|je",
+          "tense": "conditionnel_present",
+          "person": "je",
+          "form": "saurais",
+          "irregular": true
+        },
+        {
+          "importKey": "savoir|conditionnel_present|tu",
+          "tense": "conditionnel_present",
+          "person": "tu",
+          "form": "saurais",
+          "irregular": true
+        },
+        {
+          "importKey": "savoir|conditionnel_present|il/elle/on",
+          "tense": "conditionnel_present",
+          "person": "il/elle/on",
+          "form": "saurait",
+          "irregular": true
+        },
+        {
+          "importKey": "savoir|conditionnel_present|nous",
+          "tense": "conditionnel_present",
+          "person": "nous",
+          "form": "saurions",
+          "irregular": true
+        },
+        {
+          "importKey": "savoir|conditionnel_present|vous",
+          "tense": "conditionnel_present",
+          "person": "vous",
+          "form": "sauriez",
+          "irregular": true
+        },
+        {
+          "importKey": "savoir|conditionnel_present|ils/elles",
+          "tense": "conditionnel_present",
+          "person": "ils/elles",
+          "form": "sauraient",
+          "irregular": true
+        },
+        {
+          "importKey": "savoir|subjonctif_present|que je",
+          "tense": "subjonctif_present",
+          "person": "que je",
+          "form": "sache",
+          "irregular": true
+        },
+        {
+          "importKey": "savoir|subjonctif_present|que tu",
+          "tense": "subjonctif_present",
+          "person": "que tu",
+          "form": "saches",
+          "irregular": true
+        },
+        {
+          "importKey": "savoir|subjonctif_present|qu'il/elle/on",
+          "tense": "subjonctif_present",
+          "person": "qu'il/elle/on",
+          "form": "sache",
+          "irregular": true
+        },
+        {
+          "importKey": "savoir|subjonctif_present|que nous",
+          "tense": "subjonctif_present",
+          "person": "que nous",
+          "form": "sachions",
+          "irregular": true
+        },
+        {
+          "importKey": "savoir|subjonctif_present|que vous",
+          "tense": "subjonctif_present",
+          "person": "que vous",
+          "form": "sachiez",
+          "irregular": true
+        },
+        {
+          "importKey": "savoir|subjonctif_present|qu'ils/elles",
+          "tense": "subjonctif_present",
+          "person": "qu'ils/elles",
+          "form": "sachent",
+          "irregular": true
+        },
+        {
+          "importKey": "savoir|passe_compose|je",
+          "tense": "passe_compose",
+          "person": "je",
+          "form": "ai su",
+          "irregular": true
+        },
+        {
+          "importKey": "savoir|passe_compose|tu",
+          "tense": "passe_compose",
+          "person": "tu",
+          "form": "as su",
+          "irregular": true
+        },
+        {
+          "importKey": "savoir|passe_compose|il/elle/on",
+          "tense": "passe_compose",
+          "person": "il/elle/on",
+          "form": "a su",
+          "irregular": true
+        },
+        {
+          "importKey": "savoir|passe_compose|nous",
+          "tense": "passe_compose",
+          "person": "nous",
+          "form": "avons su",
+          "irregular": true
+        },
+        {
+          "importKey": "savoir|passe_compose|vous",
+          "tense": "passe_compose",
+          "person": "vous",
+          "form": "avez su",
+          "irregular": true
+        },
+        {
+          "importKey": "savoir|passe_compose|ils/elles",
+          "tense": "passe_compose",
+          "person": "ils/elles",
+          "form": "ont su",
+          "irregular": true
+        }
+      ],
+      "examples": [
+        {
+          "sentenceFr": "Je sais parler français.",
+          "sentenceDe": "Ich kann Französisch sprechen.",
+          "tense": "present",
+          "context": "Sprache",
+          "level": "B1",
+          "importKey": "savoir|present|Je sais parler français."
+        },
+        {
+          "sentenceFr": "Nous savons où il habite.",
+          "sentenceDe": "Wir wissen, wo er wohnt.",
+          "tense": "present",
+          "context": "Alltag",
+          "level": "B1",
+          "importKey": "savoir|present|Nous savons où il habite."
+        },
+        {
+          "sentenceFr": "J'ai su la réponse.",
+          "sentenceDe": "Ich habe die Antwort gewusst.",
+          "tense": "passe_compose",
+          "context": "Schule",
+          "level": "B1",
+          "importKey": "savoir|passe_compose|J'ai su la réponse."
+        },
+        {
+          "sentenceFr": "Elle a su qu'il était malade.",
+          "sentenceDe": "Sie erfuhr, dass er krank war.",
+          "tense": "passe_compose",
+          "context": "Nachrichten",
+          "level": "B1",
+          "importKey": "savoir|passe_compose|Elle a su qu'il était mal"
+        },
+        {
+          "sentenceFr": "Quand j'étais petit, je savais déjà lire.",
+          "sentenceDe": "Als ich klein war, konnte ich schon lesen.",
+          "tense": "imparfait",
+          "context": "Kindheit",
+          "level": "B1",
+          "importKey": "savoir|imparfait|Quand j'étais petit, je s"
+        },
+        {
+          "sentenceFr": "Il savait toujours quoi faire.",
+          "sentenceDe": "Er wusste immer, was zu tun war.",
+          "tense": "imparfait",
+          "context": "Erfahrung",
+          "level": "B1",
+          "importKey": "savoir|imparfait|Il savait toujours quoi f"
+        },
+        {
+          "sentenceFr": "Demain, je saurai les résultats.",
+          "sentenceDe": "Morgen werde ich die Ergebnisse wissen.",
+          "tense": "futur_simple",
+          "context": "Arbeit",
+          "level": "B1",
+          "importKey": "savoir|futur_simple|Demain, je saurai les rés"
+        },
+        {
+          "sentenceFr": "Nous saurons quoi faire.",
+          "sentenceDe": "Wir werden wissen, was zu tun ist.",
+          "tense": "futur_simple",
+          "context": "Entscheidung",
+          "level": "B1",
+          "importKey": "savoir|futur_simple|Nous saurons quoi faire."
+        },
+        {
+          "sentenceFr": "Je saurais t'aider si je pouvais.",
+          "sentenceDe": "Ich könnte dir helfen, wenn ich könnte.",
+          "tense": "conditionnel_present",
+          "context": "Hilfe",
+          "level": "B1",
+          "importKey": "savoir|conditionnel_present|Je saurais t'aider si je "
+        },
+        {
+          "sentenceFr": "Tu devrais savoir la vérité.",
+          "sentenceDe": "Du solltest die Wahrheit wissen.",
+          "tense": "conditionnel_present",
+          "context": "Kommunikation",
+          "level": "B1",
+          "importKey": "savoir|conditionnel_present|Tu devrais savoir la véri"
+        },
+        {
+          "sentenceFr": "Il faut que je sache la vérité.",
+          "sentenceDe": "Ich muss die Wahrheit wissen.",
+          "tense": "subjonctif_present",
+          "context": "Pflicht",
+          "level": "B1",
+          "importKey": "savoir|subjonctif_present|Il faut que je sache la v"
+        },
+        {
+          "sentenceFr": "Bien que nous sachions la réponse, nous demandons.",
+          "sentenceDe": "Obwohl wir die Antwort wissen, fragen wir.",
+          "tense": "subjonctif_present",
+          "context": "Lernen",
+          "level": "B1",
+          "importKey": "savoir|subjonctif_present|Bien que nous sachions la"
+        }
+      ],
+      "grammarInfo": {
+        "present": {
+          "tenseName": "Présent",
+          "rule": "Drückt Wissen, Kenntnisse oder gelerntes Können aus.",
+          "formation": "Unregelmäßig: sais, sais, sait, savons, savez, savent.",
+          "table": {
+            "je": "je sais",
+            "tu": "tu sais",
+            "il/elle/on": "il/elle/on sait",
+            "nous": "nous savons",
+            "vous": "vous savez",
+            "ils/elles": "ils/elles savent"
+          }
+        },
+        "passe_compose": {
+          "tenseName": "Passé composé",
+          "rule": "Bedeutet oft 'erfahren' / 'gewusst haben'.",
+          "formation": "Hilfsverb avoir + Partizip Perfekt 'su'.",
+          "table": {
+            "je": "j'ai su",
+            "tu": "tu as su",
+            "il/elle/on": "il/elle/on a su",
+            "nous": "nous avons su",
+            "vous": "vous avez su",
+            "ils/elles": "ils/elles ont su"
+          }
+        },
+        "imparfait": {
+          "tenseName": "Imparfait",
+          "rule": "Bedeutet 'wusste' / 'kannte' als andauernder Zustand.",
+          "formation": "Stamm sav- + Endungen (-ais, -ais, -ait, -ions, -iez, -aient).",
+          "table": {
+            "je": "je savais",
+            "tu": "tu savais",
+            "il/elle/on": "il/elle/on savait",
+            "nous": "nous savions",
+            "vous": "vous saviez",
+            "ils/elles": "ils/elles savaient"
+          }
+        },
+        "futur_simple": {
+          "tenseName": "Futur simple",
+          "rule": "Für künftiges Wissen oder Erfahren.",
+          "formation": "Unregelmäßiger Stamm saur- + Endungen (-ai, -as, -a, -ons, -ez, -ont).",
+          "table": {
+            "je": "je saurai",
+            "tu": "tu sauras",
+            "il/elle/on": "il/elle/on saura",
+            "nous": "nous saurons",
+            "vous": "vous saurez",
+            "ils/elles": "ils/elles sauront"
+          }
+        },
+        "conditionnel_present": {
+          "tenseName": "Conditionnel présent",
+          "rule": "Für höfliches Wollen/Können ('je ne saurais' = 'ich könnte nicht').",
+          "formation": "Stamm saur- + Imparfait-Endungen (-ais, -ais, -ait, -ions, -iez, -aient).",
+          "table": {
+            "je": "je saurais",
+            "tu": "tu saurais",
+            "il/elle/on": "il/elle/on saurait",
+            "nous": "nous saurions",
+            "vous": "vous sauriez",
+            "ils/elles": "ils/elles sauraient"
+          }
+        },
+        "subjonctif_present": {
+          "tenseName": "Subjonctif présent",
+          "rule": "Nach Ausdrücken des Zweifels, Nicht-Wissens etc.",
+          "formation": "Stamm sach- + Endungen (-e, -es, -e, -ions, -iez, -ent).",
+          "table": {
+            "je": "que je sache",
+            "tu": "que tu saches",
+            "il/elle/on": "qu'il/elle/on sache",
+            "nous": "que nous sachions",
+            "vous": "que vous sachiez",
+            "ils/elles": "qu'ils/elles sachent"
+          }
+        }
+      }
+    },
+    {
+      "importKey": "venir",
+      "infinitive": "venir",
+      "translationDe": "kommen",
+      "group": "irregular",
+      "auxiliary": "être",
+      "reflexive": false,
+      "forms": [
+        {
+          "importKey": "venir|present|je",
+          "tense": "present",
+          "person": "je",
+          "form": "viens",
+          "irregular": true
+        },
+        {
+          "importKey": "venir|present|tu",
+          "tense": "present",
+          "person": "tu",
+          "form": "viens",
+          "irregular": true
+        },
+        {
+          "importKey": "venir|present|il/elle/on",
+          "tense": "present",
+          "person": "il/elle/on",
+          "form": "vient",
+          "irregular": true
+        },
+        {
+          "importKey": "venir|present|nous",
+          "tense": "present",
+          "person": "nous",
+          "form": "venons",
+          "irregular": true
+        },
+        {
+          "importKey": "venir|present|vous",
+          "tense": "present",
+          "person": "vous",
+          "form": "venez",
+          "irregular": true
+        },
+        {
+          "importKey": "venir|present|ils/elles",
+          "tense": "present",
+          "person": "ils/elles",
+          "form": "viennent",
+          "irregular": true
+        },
+        {
+          "importKey": "venir|imparfait|je",
+          "tense": "imparfait",
+          "person": "je",
+          "form": "venais",
+          "irregular": true
+        },
+        {
+          "importKey": "venir|imparfait|tu",
+          "tense": "imparfait",
+          "person": "tu",
+          "form": "venais",
+          "irregular": true
+        },
+        {
+          "importKey": "venir|imparfait|il/elle/on",
+          "tense": "imparfait",
+          "person": "il/elle/on",
+          "form": "venait",
+          "irregular": true
+        },
+        {
+          "importKey": "venir|imparfait|nous",
+          "tense": "imparfait",
+          "person": "nous",
+          "form": "venions",
+          "irregular": true
+        },
+        {
+          "importKey": "venir|imparfait|vous",
+          "tense": "imparfait",
+          "person": "vous",
+          "form": "veniez",
+          "irregular": true
+        },
+        {
+          "importKey": "venir|imparfait|ils/elles",
+          "tense": "imparfait",
+          "person": "ils/elles",
+          "form": "venaient",
+          "irregular": true
+        },
+        {
+          "importKey": "venir|futur_simple|je",
+          "tense": "futur_simple",
+          "person": "je",
+          "form": "viendrai",
+          "irregular": true
+        },
+        {
+          "importKey": "venir|futur_simple|tu",
+          "tense": "futur_simple",
+          "person": "tu",
+          "form": "viendras",
+          "irregular": true
+        },
+        {
+          "importKey": "venir|futur_simple|il/elle/on",
+          "tense": "futur_simple",
+          "person": "il/elle/on",
+          "form": "viendra",
+          "irregular": true
+        },
+        {
+          "importKey": "venir|futur_simple|nous",
+          "tense": "futur_simple",
+          "person": "nous",
+          "form": "viendrons",
+          "irregular": true
+        },
+        {
+          "importKey": "venir|futur_simple|vous",
+          "tense": "futur_simple",
+          "person": "vous",
+          "form": "viendrez",
+          "irregular": true
+        },
+        {
+          "importKey": "venir|futur_simple|ils/elles",
+          "tense": "futur_simple",
+          "person": "ils/elles",
+          "form": "viendront",
+          "irregular": true
+        },
+        {
+          "importKey": "venir|conditionnel_present|je",
+          "tense": "conditionnel_present",
+          "person": "je",
+          "form": "viendrais",
+          "irregular": true
+        },
+        {
+          "importKey": "venir|conditionnel_present|tu",
+          "tense": "conditionnel_present",
+          "person": "tu",
+          "form": "viendrais",
+          "irregular": true
+        },
+        {
+          "importKey": "venir|conditionnel_present|il/elle/on",
+          "tense": "conditionnel_present",
+          "person": "il/elle/on",
+          "form": "viendrait",
+          "irregular": true
+        },
+        {
+          "importKey": "venir|conditionnel_present|nous",
+          "tense": "conditionnel_present",
+          "person": "nous",
+          "form": "viendrions",
+          "irregular": true
+        },
+        {
+          "importKey": "venir|conditionnel_present|vous",
+          "tense": "conditionnel_present",
+          "person": "vous",
+          "form": "viendriez",
+          "irregular": true
+        },
+        {
+          "importKey": "venir|conditionnel_present|ils/elles",
+          "tense": "conditionnel_present",
+          "person": "ils/elles",
+          "form": "viendraient",
+          "irregular": true
+        },
+        {
+          "importKey": "venir|subjonctif_present|que je",
+          "tense": "subjonctif_present",
+          "person": "que je",
+          "form": "vienne",
+          "irregular": true
+        },
+        {
+          "importKey": "venir|subjonctif_present|que tu",
+          "tense": "subjonctif_present",
+          "person": "que tu",
+          "form": "viennes",
+          "irregular": true
+        },
+        {
+          "importKey": "venir|subjonctif_present|qu'il/elle/on",
+          "tense": "subjonctif_present",
+          "person": "qu'il/elle/on",
+          "form": "vienne",
+          "irregular": true
+        },
+        {
+          "importKey": "venir|subjonctif_present|que nous",
+          "tense": "subjonctif_present",
+          "person": "que nous",
+          "form": "venions",
+          "irregular": true
+        },
+        {
+          "importKey": "venir|subjonctif_present|que vous",
+          "tense": "subjonctif_present",
+          "person": "que vous",
+          "form": "veniez",
+          "irregular": true
+        },
+        {
+          "importKey": "venir|subjonctif_present|qu'ils/elles",
+          "tense": "subjonctif_present",
+          "person": "qu'ils/elles",
+          "form": "viennent",
+          "irregular": true
+        },
+        {
+          "importKey": "venir|passe_compose|je",
+          "tense": "passe_compose",
+          "person": "je",
+          "form": "suis venu(e)",
+          "irregular": true
+        },
+        {
+          "importKey": "venir|passe_compose|tu",
+          "tense": "passe_compose",
+          "person": "tu",
+          "form": "es venu(e)",
+          "irregular": true
+        },
+        {
+          "importKey": "venir|passe_compose|il/elle/on",
+          "tense": "passe_compose",
+          "person": "il/elle/on",
+          "form": "est venu(e)",
+          "irregular": true
+        },
+        {
+          "importKey": "venir|passe_compose|nous",
+          "tense": "passe_compose",
+          "person": "nous",
+          "form": "sommes venu(e)s",
+          "irregular": true
+        },
+        {
+          "importKey": "venir|passe_compose|vous",
+          "tense": "passe_compose",
+          "person": "vous",
+          "form": "êtes venu(e)s",
+          "irregular": true
+        },
+        {
+          "importKey": "venir|passe_compose|ils/elles",
+          "tense": "passe_compose",
+          "person": "ils/elles",
+          "form": "sont venu(e)s",
+          "irregular": true
+        }
+      ],
+      "examples": [
+        {
+          "sentenceFr": "Je viens de Dortmund.",
+          "sentenceDe": "Ich komme aus Dortmund.",
+          "tense": "present",
+          "context": "Herkunft",
+          "level": "B1",
+          "importKey": "venir|present|Je viens de Dortmund."
+        },
+        {
+          "sentenceFr": "Nous venons souvent ici.",
+          "sentenceDe": "Wir kommen oft hierher.",
+          "tense": "present",
+          "context": "Alltag",
+          "level": "B1",
+          "importKey": "venir|present|Nous venons souvent ici."
+        },
+        {
+          "sentenceFr": "Je suis venu(e) te voir.",
+          "sentenceDe": "Ich bin gekommen, um dich zu sehen.",
+          "tense": "passe_compose",
+          "context": "Besuch",
+          "level": "B1",
+          "importKey": "venir|passe_compose|Je suis venu(e) te voir."
+        },
+        {
+          "sentenceFr": "Ils sont venus en retard.",
+          "sentenceDe": "Sie sind zu spät gekommen.",
+          "tense": "passe_compose",
+          "context": "Termine",
+          "level": "B1",
+          "importKey": "venir|passe_compose|Ils sont venus en retard."
+        },
+        {
+          "sentenceFr": "Quand j'étais jeune, je venais souvent ici.",
+          "sentenceDe": "Als ich jung war, kam ich oft hierher.",
+          "tense": "imparfait",
+          "context": "Erinnerungen",
+          "level": "B1",
+          "importKey": "venir|imparfait|Quand j'étais jeune, je v"
+        },
+        {
+          "sentenceFr": "Elle venait me voir chaque semaine.",
+          "sentenceDe": "Sie kam jede Woche mich besuchen.",
+          "tense": "imparfait",
+          "context": "Familie",
+          "level": "B1",
+          "importKey": "venir|imparfait|Elle venait me voir chaqu"
+        },
+        {
+          "sentenceFr": "Demain, je viendrai te chercher.",
+          "sentenceDe": "Morgen komme ich dich abholen.",
+          "tense": "futur_simple",
+          "context": "Verabredung",
+          "level": "B1",
+          "importKey": "venir|futur_simple|Demain, je viendrai te ch"
+        },
+        {
+          "sentenceFr": "Nous viendrons à la fête.",
+          "sentenceDe": "Wir kommen zur Party.",
+          "tense": "futur_simple",
+          "context": "Einladung",
+          "level": "B1",
+          "importKey": "venir|futur_simple|Nous viendrons à la fête."
+        },
+        {
+          "sentenceFr": "Je viendrais si j'étais libre.",
+          "sentenceDe": "Ich würde kommen, wenn ich frei wäre.",
+          "tense": "conditionnel_present",
+          "context": "Einladung",
+          "level": "B1",
+          "importKey": "venir|conditionnel_present|Je viendrais si j'étais l"
+        },
+        {
+          "sentenceFr": "Tu pourrais venir avec nous.",
+          "sentenceDe": "Du könntest mit uns kommen.",
+          "tense": "conditionnel_present",
+          "context": "Vorschlag",
+          "level": "B1",
+          "importKey": "venir|conditionnel_present|Tu pourrais venir avec no"
+        },
+        {
+          "sentenceFr": "Il faut qu'il vienne à l'heure.",
+          "sentenceDe": "Er muss pünktlich kommen.",
+          "tense": "subjonctif_present",
+          "context": "Pflicht",
+          "level": "B1",
+          "importKey": "venir|subjonctif_present|Il faut qu'il vienne à l'"
+        },
+        {
+          "sentenceFr": "Bien que je vienne souvent, je découvre toujours quelque chose.",
+          "sentenceDe": "Obwohl ich oft komme, entdecke ich immer etwas.",
+          "tense": "subjonctif_present",
+          "context": "Stadt",
+          "level": "B1",
+          "importKey": "venir|subjonctif_present|Bien que je vienne souven"
+        }
+      ],
+      "grammarInfo": {
+        "present": {
+          "tenseName": "Présent",
+          "rule": "Für Herkunft, Ankunft und 'venir de + Infinitiv' (gerade getan haben).",
+          "formation": "Unregelmäßig: viens, viens, vient, venons, venez, viennent.",
+          "table": {
+            "je": "je viens",
+            "tu": "tu viens",
+            "il/elle/on": "il/elle/on vient",
+            "nous": "nous venons",
+            "vous": "vous venez",
+            "ils/elles": "ils/elles viennent"
+          }
+        },
+        "passe_compose": {
+          "tenseName": "Passé composé",
+          "rule": "Für vergangene Ankünfte.",
+          "formation": "Hilfsverb être + Partizip Perfekt 'venu(e)(s)' (mit Subjekt-Angleichung).",
+          "table": {
+            "je": "je suis venu(e)",
+            "tu": "tu es venu(e)",
+            "il/elle/on": "il/elle/on est venu(e)",
+            "nous": "nous sommes venu(e)s",
+            "vous": "vous êtes venu(e)s",
+            "ils/elles": "ils/elles sont venu(e)s"
+          }
+        },
+        "imparfait": {
+          "tenseName": "Imparfait",
+          "rule": "Für Gewohnheitsbesuche oder andauernde Ankünfte in der Vergangenheit.",
+          "formation": "Stamm ven- + Endungen (-ais, -ais, -ait, -ions, -iez, -aient).",
+          "table": {
+            "je": "je venais",
+            "tu": "tu venais",
+            "il/elle/on": "il/elle/on venait",
+            "nous": "nous venions",
+            "vous": "vous veniez",
+            "ils/elles": "ils/elles venaient"
+          }
+        },
+        "futur_simple": {
+          "tenseName": "Futur simple",
+          "rule": "Für künftige Ankünfte und Besuche.",
+          "formation": "Unregelmäßiger Stamm viendr- + Endungen (-ai, -as, -a, -ons, -ez, -ont).",
+          "table": {
+            "je": "je viendrai",
+            "tu": "tu viendras",
+            "il/elle/on": "il/elle/on viendra",
+            "nous": "nous viendrons",
+            "vous": "vous viendrez",
+            "ils/elles": "ils/elles viendront"
+          }
+        },
+        "conditionnel_present": {
+          "tenseName": "Conditionnel présent",
+          "rule": "Für Einladungen, Höflichkeit und Möglichkeiten.",
+          "formation": "Stamm viendr- + Imparfait-Endungen (-ais, -ais, -ait, -ions, -iez, -aient).",
+          "table": {
+            "je": "je viendrais",
+            "tu": "tu viendrais",
+            "il/elle/on": "il/elle/on viendrait",
+            "nous": "nous viendrions",
+            "vous": "vous viendriez",
+            "ils/elles": "ils/elles viendraient"
+          }
+        },
+        "subjonctif_present": {
+          "tenseName": "Subjonctif présent",
+          "rule": "Nach Subjonctif-Auslösern.",
+          "formation": "Stamm vienn- (Sg. & 3. Pl.) / ven- (1. & 2. Pl.).",
+          "table": {
+            "je": "que je vienne",
+            "tu": "que tu viennes",
+            "il/elle/on": "qu'il/elle/on vienne",
+            "nous": "que nous venions",
+            "vous": "que vous veniez",
+            "ils/elles": "qu'ils/elles viennent"
+          }
+        }
+      }
+    }
+  ]
+}

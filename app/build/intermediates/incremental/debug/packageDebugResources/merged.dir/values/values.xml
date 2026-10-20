@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="lemonde_black">#121212</color>
+    <color name="lemonde_border">#E5E7EB</color>
+    <color name="lemonde_card_bg">#FFFFFF</color>
+    <color name="lemonde_dark_gray">#1E1E1E</color>
+    <color name="lemonde_error">#DC2626</color>
+    <color name="lemonde_light_bg">#F8F9FA</color>
+    <color name="lemonde_success">#059669</color>
+    <color name="lemonde_text_primary">#111827</color>
+    <color name="lemonde_text_secondary">#4B5563</color>
+    <color name="lemonde_yellow">#FFE600</color>
+    <color name="lemonde_yellow_dark">#E5CE00</color>
+    <color name="white">#FFFFFF</color>
+    <style name="LeMonde.Button" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/lemonde_black</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="elevation">0dp</item>
+    </style>
+    <style name="LeMonde.Button.Accent" parent="LeMonde.Button">
+        <item name="backgroundTint">@color/lemonde_yellow</item>
+        <item name="android:textColor">@color/lemonde_black</item>
+    </style>
+    <style name="LeMonde.Button.Secondary" parent="LeMonde.Button">
+        <item name="backgroundTint">@color/lemonde_card_bg</item>
+        <item name="android:textColor">@color/lemonde_text_primary</item>
+        <item name="strokeColor">@color/lemonde_border</item>
+        <item name="strokeWidth">1dp</item>
+    </style>
+    <style name="Theme.VerbesFrancais" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        
+        <item name="colorPrimary">@color/lemonde_black</item>
+        <item name="colorPrimaryVariant">@color/lemonde_dark_gray</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        
+        <item name="colorSecondary">@color/lemonde_yellow</item>
+        <item name="colorSecondaryVariant">@color/lemonde_yellow_dark</item>
+        <item name="colorOnSecondary">@color/lemonde_black</item>
+
+        
+        <item name="android:windowBackground">@color/lemonde_light_bg</item>
+        <item name="colorSurface">@color/lemonde_card_bg</item>
+        <item name="colorOnSurface">@color/lemonde_text_primary</item>
+
+        
+        <item name="materialButtonStyle">@style/LeMonde.Button</item>
+    </style>
+</resources>

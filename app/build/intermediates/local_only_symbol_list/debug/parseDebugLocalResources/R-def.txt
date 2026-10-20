@@ -1,6 +1,25 @@
 R_DEF: Internal format may change without notice
 local
+color lemonde_black
+color lemonde_border
+color lemonde_card_bg
+color lemonde_dark_gray
+color lemonde_error
+color lemonde_light_bg
+color lemonde_success
+color lemonde_text_primary
+color lemonde_text_secondary
+color lemonde_yellow
+color lemonde_yellow_dark
+color white
+drawable bg_lemonde_card
+drawable bg_lemonde_card_accent
+drawable bg_lemonde_input
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id action_stats
 id buttonCheck
+id buttonCheckPronunciation
 id buttonCheckSentence
 id buttonContextPractice
 id buttonErrorPractice
@@ -12,10 +31,12 @@ id buttonNextSentence
 id buttonPractice
 id buttonPracticeFiltered
 id buttonSaveGoal
+id buttonSelectTenses
+id buttonShowGrammar
 id buttonSpeakForm
+id buttonSpeakRecommendation
 id buttonSpeakSentence
 id buttonSpeakVerb
-id buttonStats
 id buttonVerbList
 id buttonWeakestForms
 id editAnswer
@@ -28,9 +49,12 @@ id textFormInfo
 id textFrenchSentence
 id textGermanSentence
 id textOverview
+id textPronunciationResult
+id textRecommendation
 id textResult
 id textSentenceResult
 id textTask
+id textTenseSelectionSummary
 id textTenseStats
 id textVerb
 layout activity_context_practice
@@ -39,4 +63,10 @@ layout activity_practice
 layout activity_stats
 layout activity_verb_list
 layout item_verb_form
+menu main_menu
+mipmap ic_launcher
+mipmap ic_launcher_round
+style LeMonde.Button
+style LeMonde.Button.Accent
+style LeMonde.Button.Secondary
 style Theme.VerbesFrancais

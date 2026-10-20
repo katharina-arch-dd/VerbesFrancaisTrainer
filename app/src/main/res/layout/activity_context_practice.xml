@@ -9,56 +9,125 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="24dp">
+        android:padding="20dp">
 
-        <TextView
-            android:id="@+id/textGermanSentence"
+        <!-- Sentence Card -->
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="20sp"
-            android:textStyle="bold" />
+            android:background="@drawable/bg_lemonde_card_accent"
+            android:orientation="vertical"
+            android:padding="20dp">
 
-        <TextView
-            android:id="@+id/textFrenchSentence"
+            <TextView
+                android:id="@+id/textGermanSentence"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/lemonde_text_primary"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textFrenchSentence"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/lemonde_text_primary"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/buttonSpeakSentence"
+                    style="@style/LeMonde.Button.Secondary"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:layout_weight="1"
+                    android:text="🔊 Vorlesen"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/buttonCheckPronunciation"
+                    style="@style/LeMonde.Button.Accent"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:layout_weight="1"
+                    android:text="🎙️ Sprechen"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/buttonShowGrammar"
+                style="@style/LeMonde.Button.Secondary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="📖 Grammatik &amp; Konjugation" />
+
+            <TextView
+                android:id="@+id/textPronunciationResult"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/bg_lemonde_card"
+                android:padding="14dp"
+                android:textColor="@color/lemonde_text_primary"
+                android:textSize="14sp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <!-- Answer Card -->
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:textSize="20sp" />
+            android:background="@drawable/bg_lemonde_card"
+            android:orientation="vertical"
+            android:padding="20dp">
 
-        <Button
-            android:id="@+id/buttonSpeakSentence"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:text="🔊 Satz vorlesen" />
+            <EditText
+                android:id="@+id/editMissingForm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_lemonde_input"
+                android:hint="Fehlende Verbform eingeben..."
+                android:inputType="text"
+                android:padding="14dp"
+                android:textColor="@color/lemonde_text_primary"
+                android:textSize="16sp" />
 
-        <EditText
-            android:id="@+id/editMissingForm"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="24dp"
-            android:hint="Fehlende Verbform eingeben"
-            android:inputType="text" />
+            <Button
+                android:id="@+id/buttonCheckSentence"
+                style="@style/LeMonde.Button.Accent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Prüfen" />
+        </LinearLayout>
 
-        <Button
-            android:id="@+id/buttonCheckSentence"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:text="Prüfen" />
-
+        <!-- Result Card -->
         <TextView
             android:id="@+id/textSentenceResult"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="24dp"
-            android:textSize="18sp" />
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bg_lemonde_card"
+            android:padding="16dp"
+            android:textColor="@color/lemonde_text_primary"
+            android:textSize="16sp" />
 
         <Button
             android:id="@+id/buttonNextSentence"
+            style="@style/LeMonde.Button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="24dp"
+            android:layout_marginTop="16dp"
             android:text="Nächster Satz" />
     </LinearLayout>
 </ScrollView>

@@ -9,16 +9,20 @@ import android.widget.TextView;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
+import java.util.Set;
 
 import de.katharina.verbesfrancais.R;
 import de.katharina.verbesfrancais.data.AppDatabase;
 import de.katharina.verbesfrancais.data.ConjugationForm;
 import de.katharina.verbesfrancais.data.ReviewProgress;
 import de.katharina.verbesfrancais.data.Verb;
+import de.katharina.verbesfrancais.helpers.GrammarInfoHelper;
 import de.katharina.verbesfrancais.practice.PracticeEngine;
 import de.katharina.verbesfrancais.settings.DailyGoalManager;
+import de.katharina.verbesfrancais.settings.TenseSelectionManager;
 import de.katharina.verbesfrancais.tts.FrenchSpeaker;
 
 public class PracticeActivity extends AppCompatActivity {
@@ -55,6 +59,7 @@ public class PracticeActivity extends AppCompatActivity {
         editAnswer = findViewById(R.id.editAnswer);
 
         Button speakVerb = findViewById(R.id.buttonSpeakVerb);
+        Button showGrammar = findViewById(R.id.buttonShowGrammar);
         Button speakForm = findViewById(R.id.buttonSpeakForm);
         Button check = findViewById(R.id.buttonCheck);
         Button next = findViewById(R.id.buttonNext);
@@ -62,6 +67,12 @@ public class PracticeActivity extends AppCompatActivity {
         speakVerb.setOnClickListener(v -> {
             if (currentVerb != null && currentVerb.infinitive != null) {
                 speaker.speak(currentVerb.infinitive);
+            }
+        });
+
+        showGrammar.setOnClickListener(v -> {
+            if (currentVerb != null && currentForm != null) {
+                GrammarInfoHelper.showGrammarDialog(this, currentVerb.infinitive, currentVerb.translationDe, currentForm.tense, speaker);
             }
         });
 
@@ -87,27 +98,46 @@ public class PracticeActivity extends AppCompatActivity {
                 currentProgress = null;
                 currentVerb = null;
 
+                TenseSelectionManager tenseManager = new TenseSelectionManager(this);
+                Set<String> selectedTensesSet = tenseManager.getSelectedTenses();
+                List<String> selectedTensesList = new ArrayList<>(selectedTensesSet);
+
                 List<ReviewProgress> due = db.reviewProgressDao().getDue(System.currentTimeMillis());
                 if (due != null && !due.isEmpty()) {
-                    currentProgress = due.get(random.nextInt(due.size()));
-                    if (currentProgress != null) {
-                        currentForm = db.conjugationFormDao().findById(currentProgress.formId);
-                        if (currentForm != null && !filterTense.isEmpty() && !filterTense.equals(currentForm.tense)) {
-                            currentForm = null;
+                    List<ReviewProgress> filteredDue = new ArrayList<>();
+                    for (ReviewProgress rp : due) {
+                        ConjugationForm form = db.conjugationFormDao().findById(rp.formId);
+                        if (form != null) {
+                            if (!filterTense.isEmpty()) {
+                                if (filterTense.equals(form.tense)) filteredDue.add(rp);
+                            } else if (selectedTensesSet.contains(form.tense)) {
+                                filteredDue.add(rp);
+                            }
                         }
+                    }
+                    if (!filteredDue.isEmpty()) {
+                        currentProgress = filteredDue.get(random.nextInt(filteredDue.size()));
+                        currentForm = db.conjugationFormDao().findById(currentProgress.formId);
                     }
                 }
 
                 if (currentForm == null) {
-                    List<ConjugationForm> all = db.conjugationFormDao().getFilteredForms(filterTense, 0);
-                    if (all == null || all.isEmpty()) {
+                    List<ConjugationForm> candidates;
+                    if (!filterTense.isEmpty()) {
+                        candidates = db.conjugationFormDao().getFilteredForms(filterTense, 0);
+                    } else {
+                        candidates = db.conjugationFormDao().getFormsByTenses(selectedTensesList);
+                    }
+
+                    if (candidates == null || candidates.isEmpty()) {
                         runOnUiThread(() -> {
                             if (isFinishing() || isDestroyed()) return;
-                            Toast.makeText(this, "Keine Formen für diesen Filter vorhanden.", Toast.LENGTH_LONG).show();
+                            Toast.makeText(this, "Keine Formen für die ausgewählten Zeiten vorhanden.", Toast.LENGTH_LONG).show();
                         });
                         return;
                     }
-                    currentForm = all.get(random.nextInt(all.size()));
+
+                    currentForm = candidates.get(random.nextInt(candidates.size()));
                     if (currentForm != null) {
                         currentProgress = db.reviewProgressDao().getByFormId(currentForm.id);
                         if (currentProgress == null) {

@@ -17,6 +17,7 @@ import de.katharina.verbesfrancais.data.AppDatabase;
 import de.katharina.verbesfrancais.data.ConjugationForm;
 import de.katharina.verbesfrancais.data.ReviewProgress;
 import de.katharina.verbesfrancais.data.Verb;
+import de.katharina.verbesfrancais.helpers.GrammarInfoHelper;
 import de.katharina.verbesfrancais.practice.PracticeEngine;
 import de.katharina.verbesfrancais.tts.FrenchSpeaker;
 
@@ -51,6 +52,7 @@ public class ErrorPracticeActivity extends AppCompatActivity {
         editAnswer = findViewById(R.id.editAnswer);
 
         Button speakVerb = findViewById(R.id.buttonSpeakVerb);
+        Button showGrammar = findViewById(R.id.buttonShowGrammar);
         Button speakForm = findViewById(R.id.buttonSpeakForm);
         Button check = findViewById(R.id.buttonCheck);
         Button next = findViewById(R.id.buttonNext);
@@ -58,6 +60,12 @@ public class ErrorPracticeActivity extends AppCompatActivity {
         speakVerb.setOnClickListener(v -> {
             if (currentVerb != null && currentVerb.infinitive != null) {
                 speaker.speak(currentVerb.infinitive);
+            }
+        });
+
+        showGrammar.setOnClickListener(v -> {
+            if (currentVerb != null && currentForm != null) {
+                GrammarInfoHelper.showGrammarDialog(this, currentVerb.infinitive, currentVerb.translationDe, currentForm.tense, speaker);
             }
         });
 

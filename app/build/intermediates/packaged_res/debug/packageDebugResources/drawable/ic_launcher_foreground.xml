@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Central Le Monde Badge Container -->
+    <path
+        android:fillColor="#121212"
+        android:strokeColor="#FFE600"
+        android:strokeWidth="2.5"
+        android:pathData="M30,24 H78 A8,8 0 0,1 86,32 V76 A8,8 0 0,1 78,84 H30 A8,8 0 0,1 22,76 V32 A8,8 0 0,1 30,24 Z" />
+
+    <!-- Bold Letter 'F' in White -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M33,36 H48 V42 H39 V50 H46 V56 H39 V72 H33 Z" />
+
+    <!-- Bold Letter 'r' in Le Monde Yellow -->
+    <path
+        android:fillColor="#FFE600"
+        android:pathData="M52,48 H58 V53 C60,49 64,48 69,48 V55 C65,55 60,57 58,61 V72 H52 Z" />
+</vector>

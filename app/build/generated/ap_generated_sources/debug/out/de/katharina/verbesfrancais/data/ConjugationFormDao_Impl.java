@@ -5,10 +5,12 @@ import androidx.room.EntityInsertAdapter;
 import androidx.room.RoomDatabase;
 import androidx.room.util.DBUtil;
 import androidx.room.util.SQLiteStatementUtil;
+import androidx.room.util.StringUtil;
 import androidx.sqlite.SQLiteStatement;
 import java.lang.Class;
 import java.lang.Override;
 import java.lang.String;
+import java.lang.StringBuilder;
 import java.lang.SuppressWarnings;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -420,6 +422,75 @@ public final class ConjugationFormDao_Impl implements ConjugationFormDao {
           _tmp = (int) (_stmt.getLong(_columnIndexOfIrregular));
           _item.irregular = _tmp != 0;
           _result.add(_item);
+        }
+        return _result;
+      } finally {
+        _stmt.close();
+      }
+    });
+  }
+
+  @Override
+  public List<ConjugationForm> getFormsByTenses(final List<String> tenses) {
+    final StringBuilder _stringBuilder = new StringBuilder();
+    _stringBuilder.append("SELECT * FROM conjugation_forms WHERE tense IN (");
+    final int _inputSize = tenses == null ? 1 : tenses.size();
+    StringUtil.appendPlaceholders(_stringBuilder, _inputSize);
+    _stringBuilder.append(")");
+    final String _sql = _stringBuilder.toString();
+    return DBUtil.performBlocking(__db, true, false, (_connection) -> {
+      final SQLiteStatement _stmt = _connection.prepare(_sql);
+      try {
+        int _argIndex = 1;
+        if (tenses == null) {
+          _stmt.bindNull(_argIndex);
+        } else {
+          for (String _item : tenses) {
+            if (_item == null) {
+              _stmt.bindNull(_argIndex);
+            } else {
+              _stmt.bindText(_argIndex, _item);
+            }
+            _argIndex++;
+          }
+        }
+        final int _columnIndexOfId = SQLiteStatementUtil.getColumnIndexOrThrow(_stmt, "id");
+        final int _columnIndexOfImportKey = SQLiteStatementUtil.getColumnIndexOrThrow(_stmt, "importKey");
+        final int _columnIndexOfVerbId = SQLiteStatementUtil.getColumnIndexOrThrow(_stmt, "verbId");
+        final int _columnIndexOfTense = SQLiteStatementUtil.getColumnIndexOrThrow(_stmt, "tense");
+        final int _columnIndexOfPerson = SQLiteStatementUtil.getColumnIndexOrThrow(_stmt, "person");
+        final int _columnIndexOfForm = SQLiteStatementUtil.getColumnIndexOrThrow(_stmt, "form");
+        final int _columnIndexOfIrregular = SQLiteStatementUtil.getColumnIndexOrThrow(_stmt, "irregular");
+        final List<ConjugationForm> _result = new ArrayList<ConjugationForm>();
+        while (_stmt.step()) {
+          final ConjugationForm _item_1;
+          _item_1 = new ConjugationForm();
+          _item_1.id = (int) (_stmt.getLong(_columnIndexOfId));
+          if (_stmt.isNull(_columnIndexOfImportKey)) {
+            _item_1.importKey = null;
+          } else {
+            _item_1.importKey = _stmt.getText(_columnIndexOfImportKey);
+          }
+          _item_1.verbId = (int) (_stmt.getLong(_columnIndexOfVerbId));
+          if (_stmt.isNull(_columnIndexOfTense)) {
+            _item_1.tense = null;
+          } else {
+            _item_1.tense = _stmt.getText(_columnIndexOfTense);
+          }
+          if (_stmt.isNull(_columnIndexOfPerson)) {
+            _item_1.person = null;
+          } else {
+            _item_1.person = _stmt.getText(_columnIndexOfPerson);
+          }
+          if (_stmt.isNull(_columnIndexOfForm)) {
+            _item_1.form = null;
+          } else {
+            _item_1.form = _stmt.getText(_columnIndexOfForm);
+          }
+          final int _tmp;
+          _tmp = (int) (_stmt.getLong(_columnIndexOfIrregular));
+          _item_1.irregular = _tmp != 0;
+          _result.add(_item_1);
         }
         return _result;
       } finally {

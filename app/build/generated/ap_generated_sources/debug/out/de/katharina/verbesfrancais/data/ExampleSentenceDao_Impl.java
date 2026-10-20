@@ -5,10 +5,12 @@ import androidx.room.EntityInsertAdapter;
 import androidx.room.RoomDatabase;
 import androidx.room.util.DBUtil;
 import androidx.room.util.SQLiteStatementUtil;
+import androidx.room.util.StringUtil;
 import androidx.sqlite.SQLiteStatement;
 import java.lang.Class;
 import java.lang.Override;
 import java.lang.String;
+import java.lang.StringBuilder;
 import java.lang.SuppressWarnings;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -447,6 +449,83 @@ public final class ExampleSentenceDao_Impl implements ExampleSentenceDao {
             _item.level = _stmt.getText(_columnIndexOfLevel);
           }
           _result.add(_item);
+        }
+        return _result;
+      } finally {
+        _stmt.close();
+      }
+    });
+  }
+
+  @Override
+  public List<ExampleSentence> getByTenses(final List<String> tenses) {
+    final StringBuilder _stringBuilder = new StringBuilder();
+    _stringBuilder.append("SELECT * FROM example_sentences WHERE tense IN (");
+    final int _inputSize = tenses == null ? 1 : tenses.size();
+    StringUtil.appendPlaceholders(_stringBuilder, _inputSize);
+    _stringBuilder.append(")");
+    final String _sql = _stringBuilder.toString();
+    return DBUtil.performBlocking(__db, true, false, (_connection) -> {
+      final SQLiteStatement _stmt = _connection.prepare(_sql);
+      try {
+        int _argIndex = 1;
+        if (tenses == null) {
+          _stmt.bindNull(_argIndex);
+        } else {
+          for (String _item : tenses) {
+            if (_item == null) {
+              _stmt.bindNull(_argIndex);
+            } else {
+              _stmt.bindText(_argIndex, _item);
+            }
+            _argIndex++;
+          }
+        }
+        final int _columnIndexOfId = SQLiteStatementUtil.getColumnIndexOrThrow(_stmt, "id");
+        final int _columnIndexOfImportKey = SQLiteStatementUtil.getColumnIndexOrThrow(_stmt, "importKey");
+        final int _columnIndexOfVerbId = SQLiteStatementUtil.getColumnIndexOrThrow(_stmt, "verbId");
+        final int _columnIndexOfSentenceFr = SQLiteStatementUtil.getColumnIndexOrThrow(_stmt, "sentenceFr");
+        final int _columnIndexOfSentenceDe = SQLiteStatementUtil.getColumnIndexOrThrow(_stmt, "sentenceDe");
+        final int _columnIndexOfTense = SQLiteStatementUtil.getColumnIndexOrThrow(_stmt, "tense");
+        final int _columnIndexOfContext = SQLiteStatementUtil.getColumnIndexOrThrow(_stmt, "context");
+        final int _columnIndexOfLevel = SQLiteStatementUtil.getColumnIndexOrThrow(_stmt, "level");
+        final List<ExampleSentence> _result = new ArrayList<ExampleSentence>();
+        while (_stmt.step()) {
+          final ExampleSentence _item_1;
+          _item_1 = new ExampleSentence();
+          _item_1.id = (int) (_stmt.getLong(_columnIndexOfId));
+          if (_stmt.isNull(_columnIndexOfImportKey)) {
+            _item_1.importKey = null;
+          } else {
+            _item_1.importKey = _stmt.getText(_columnIndexOfImportKey);
+          }
+          _item_1.verbId = (int) (_stmt.getLong(_columnIndexOfVerbId));
+          if (_stmt.isNull(_columnIndexOfSentenceFr)) {
+            _item_1.sentenceFr = null;
+          } else {
+            _item_1.sentenceFr = _stmt.getText(_columnIndexOfSentenceFr);
+          }
+          if (_stmt.isNull(_columnIndexOfSentenceDe)) {
+            _item_1.sentenceDe = null;
+          } else {
+            _item_1.sentenceDe = _stmt.getText(_columnIndexOfSentenceDe);
+          }
+          if (_stmt.isNull(_columnIndexOfTense)) {
+            _item_1.tense = null;
+          } else {
+            _item_1.tense = _stmt.getText(_columnIndexOfTense);
+          }
+          if (_stmt.isNull(_columnIndexOfContext)) {
+            _item_1.context = null;
+          } else {
+            _item_1.context = _stmt.getText(_columnIndexOfContext);
+          }
+          if (_stmt.isNull(_columnIndexOfLevel)) {
+            _item_1.level = null;
+          } else {
+            _item_1.level = _stmt.getText(_columnIndexOfLevel);
+          }
+          _result.add(_item_1);
         }
         return _result;
       } finally {

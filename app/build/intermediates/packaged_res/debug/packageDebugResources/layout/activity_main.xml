@@ -9,91 +9,186 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="24dp">
+        android:padding="20dp">
 
+        <!-- Le Monde Header Banner -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Verbes Français"
+                android:textColor="@color/lemonde_text_primary"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="60dp"
+                android:layout_height="4dp"
+                android:layout_marginTop="6dp"
+                android:background="@color/lemonde_yellow" />
+        </LinearLayout>
+
+        <!-- Daily Overview Card -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_lemonde_card_accent"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TAGESZIEL &amp; FORTSCHRITT"
+                android:textColor="@color/lemonde_text_secondary"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textDailyOverview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/lemonde_text_primary"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/editDailyGoal"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_lemonde_input"
+                    android:hint="Ziel, z. B. 20"
+                    android:inputType="number"
+                    android:padding="12dp"
+                    android:textColor="@color/lemonde_text_primary"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/buttonSaveGoal"
+                    style="@style/LeMonde.Button.Accent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:text="Speichern"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Section: Übungen -->
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Verbes Français"
-            android:textSize="28sp"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/textDailyOverview"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:textSize="16sp" />
-
-        <EditText
-            android:id="@+id/editDailyGoal"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:hint="Tagesziel, z. B. 20"
-            android:inputType="number" />
-
-        <Button
-            android:id="@+id/buttonSaveGoal"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:text="Tagesziel speichern" />
-
-        <Button
-            android:id="@+id/buttonImportJson"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
-            android:text="JSON-Datei importieren" />
+            android:text="ÜBUNGSTRAINING"
+            android:textColor="@color/lemonde_text_secondary"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textTenseSelectionSummary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/lemonde_text_secondary"
+            android:textSize="14sp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/buttonSelectTenses"
+            style="@style/LeMonde.Button.Secondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="⚙️ Übungszeiten auswählen" />
 
         <Button
             android:id="@+id/buttonPractice"
+            style="@style/LeMonde.Button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="12dp"
             android:text="Verben üben" />
 
         <Button
-            android:id="@+id/buttonVerbList"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:text="Verben ansehen und filtern" />
-
-        <Button
             android:id="@+id/buttonContextPractice"
+            style="@style/LeMonde.Button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="12dp"
             android:text="Beispielsätze üben" />
 
         <Button
             android:id="@+id/buttonErrorPractice"
+            style="@style/LeMonde.Button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="12dp"
             android:text="Fehler wiederholen" />
 
         <Button
-            android:id="@+id/buttonStats"
+            android:id="@+id/buttonVerbList"
+            style="@style/LeMonde.Button.Secondary"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:text="Statistik" />
+            android:layout_marginTop="12dp"
+            android:text="Verben ansehen und filtern" />
+
+        <!-- Section: Daten -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text="DATEN &amp; SICHERUNG"
+            android:textColor="@color/lemonde_text_secondary"
+            android:textSize="12sp"
+            android:textStyle="bold" />
 
         <Button
-            android:id="@+id/buttonExportBackup"
+            android:id="@+id/buttonImportJson"
+            style="@style/LeMonde.Button.Secondary"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="24dp"
-            android:text="Backup exportieren" />
+            android:layout_marginTop="12dp"
+            android:text="JSON-Datei importieren" />
 
-        <Button
-            android:id="@+id/buttonImportBackup"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:text="Backup wiederherstellen" />
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonExportBackup"
+                style="@style/LeMonde.Button.Secondary"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="4dp"
+                android:layout_weight="1"
+                android:text="Backup exportieren"
+                android:textSize="13sp" />
+
+            <Button
+                android:id="@+id/buttonImportBackup"
+                style="@style/LeMonde.Button.Secondary"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_weight="1"
+                android:text="Backup wiederherstellen"
+                android:textSize="13sp" />
+        </LinearLayout>
     </LinearLayout>
 </ScrollView>

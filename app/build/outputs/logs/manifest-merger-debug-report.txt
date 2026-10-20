@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:2:1-14:12
-INJECTED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:2:1-14:12
-INJECTED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:2:1-14:12
-INJECTED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:2:1-14:12
+ADDED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:2:1-41:12
 MERGED from [com.google.android.material:material:1.14.0] C:\Users\saridza\.gradle\caches\9.7.1\transforms\9acd16d6b65bbd185edc41faa5ef662c\transformed\material-1.14.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.2] C:\Users\saridza\.gradle\caches\9.7.1\transforms\7403fcd068d799ef1feabf04204470bf\transformed\constraintlayout-2.2.2\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.appcompat:appcompat-resources:1.8.0] C:\Users\saridza\.gradle\caches\9.7.1\transforms\35a8ec43b7ab66024a01e51cb8746c8a\transformed\appcompat-resources-1.8.0\AndroidManifest.xml:2:1-7:12
@@ -55,17 +55,21 @@ MERGED from [androidx.sqlite:sqlite-android:2.6.2] C:\Users\saridza\.gradle\cach
 		INJECTED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:2:11-69
-queries
-ADDED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:3:5-100
-intent#action:name:android.intent.action.TTS_SERVICE
-ADDED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:3:14-90
-action#android.intent.action.TTS_SERVICE
-ADDED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:3:22-81
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:3:5-71
 	android:name
-		ADDED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:3:30-78
+		ADDED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:3:22-68
+queries
+ADDED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:5:5-9:15
+intent#action:name:android.intent.action.TTS_SERVICE
+ADDED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:6:9-8:18
+action#android.intent.action.TTS_SERVICE
+ADDED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:7:13-72
+	android:name
+		ADDED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:7:21-69
 application
-ADDED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:4:5-13:19
-INJECTED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:4:5-13:19
+ADDED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:11:5-40:19
+INJECTED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:11:5-40:19
 MERGED from [com.google.android.material:material:1.14.0] C:\Users\saridza\.gradle\caches\9.7.1\transforms\9acd16d6b65bbd185edc41faa5ef662c\transformed\material-1.14.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.14.0] C:\Users\saridza\.gradle\caches\9.7.1\transforms\9acd16d6b65bbd185edc41faa5ef662c\transformed\material-1.14.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.2] C:\Users\saridza\.gradle\caches\9.7.1\transforms\7403fcd068d799ef1feabf04204470bf\transformed\constraintlayout-2.2.2\AndroidManifest.xml:7:5-20
@@ -89,57 +93,61 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\sa
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.16.0] C:\Users\saridza\.gradle\caches\9.7.1\transforms\b98118874aa1998b78fa3f4d7d0b7bb5\transformed\core-1.16.0\AndroidManifest.xml:28:18-86
 	android:label
-		ADDED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:4:45-76
+		ADDED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:15:9-40
+	android:roundIcon
+		ADDED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:14:9-54
+	android:icon
+		ADDED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:13:9-43
 	android:allowBackup
-		ADDED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:4:18-44
+		ADDED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:12:9-35
 	android:theme
-		ADDED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:4:77-120
+		ADDED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:16:9-52
 activity#de.katharina.verbesfrancais.ui.MainActivity
-ADDED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:5:9-7:20
+ADDED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:17:9-24:20
 	android:exported
-		ADDED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:5:51-74
+		ADDED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:19:13-36
 	android:name
-		ADDED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:5:19-50
+		ADDED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:18:13-44
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:6:13-156
+ADDED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:20:13-23:29
 action#android.intent.action.MAIN
-ADDED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:6:28-80
+ADDED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:21:17-69
 	android:name
-		ADDED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:6:36-77
+		ADDED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:21:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:6:80-140
+ADDED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:22:17-77
 	android:name
-		ADDED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:6:90-137
+		ADDED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:22:27-74
 activity#de.katharina.verbesfrancais.ui.PracticeActivity
-ADDED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:8:9-82
+ADDED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:25:9-27:40
 	android:exported
-		ADDED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:8:55-79
+		ADDED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:27:13-37
 	android:name
-		ADDED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:8:19-54
+		ADDED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:26:13-48
 activity#de.katharina.verbesfrancais.ui.VerbListActivity
-ADDED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:9:9-82
+ADDED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:28:9-30:40
 	android:exported
-		ADDED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:9:55-79
+		ADDED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:30:13-37
 	android:name
-		ADDED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:9:19-54
+		ADDED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:29:13-48
 activity#de.katharina.verbesfrancais.ui.ContextPracticeActivity
-ADDED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:10:9-89
+ADDED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:31:9-33:40
 	android:exported
-		ADDED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:10:62-86
+		ADDED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:33:13-37
 	android:name
-		ADDED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:10:19-61
+		ADDED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:32:13-55
 activity#de.katharina.verbesfrancais.ui.ErrorPracticeActivity
-ADDED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:11:9-87
+ADDED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:34:9-36:40
 	android:exported
-		ADDED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:11:60-84
+		ADDED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:36:13-37
 	android:name
-		ADDED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:11:19-59
+		ADDED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:35:13-53
 activity#de.katharina.verbesfrancais.ui.StatsActivity
-ADDED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:12:9-79
+ADDED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:37:9-39:40
 	android:exported
-		ADDED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:12:52-76
+		ADDED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:39:13-37
 	android:name
-		ADDED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:12:19-51
+		ADDED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml:38:13-45
 uses-sdk
 INJECTED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\CODE\GENERIERTES\ANDROID\VerbesFrancais_Android_Projekt_Gradle97\app\src\main\AndroidManifest.xml

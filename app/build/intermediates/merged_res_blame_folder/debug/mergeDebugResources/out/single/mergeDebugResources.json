@@ -1,23 +1,15 @@
 [
     {
-        "merged": "C:\\Users\\saridza\\.gradle\\daemon\\9.7.1\\de.katharina.verbesfrancais.app-debug-3:\\layout_activity_stats.xml.flat",
-        "source": "C:\\Users\\saridza\\.gradle\\daemon\\9.7.1\\de.katharina.verbesfrancais.app-main-5:\\layout\\activity_stats.xml"
+        "merged": "de.katharina.verbesfrancais.app-debug-3:/drawable_bg_lemonde_input.xml.flat",
+        "source": "de.katharina.verbesfrancais.app-main-5:/drawable/bg_lemonde_input.xml"
     },
     {
-        "merged": "C:\\Users\\saridza\\.gradle\\daemon\\9.7.1\\de.katharina.verbesfrancais.app-debug-3:\\layout_activity_practice.xml.flat",
-        "source": "C:\\Users\\saridza\\.gradle\\daemon\\9.7.1\\de.katharina.verbesfrancais.app-main-5:\\layout\\activity_practice.xml"
+        "merged": "de.katharina.verbesfrancais.app-debug-3:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "de.katharina.verbesfrancais.app-main-5:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\saridza\\.gradle\\daemon\\9.7.1\\de.katharina.verbesfrancais.app-debug-3:\\layout_item_verb_form.xml.flat",
-        "source": "C:\\Users\\saridza\\.gradle\\daemon\\9.7.1\\de.katharina.verbesfrancais.app-main-5:\\layout\\item_verb_form.xml"
-    },
-    {
-        "merged": "de.katharina.verbesfrancais.app-debug-3:/layout_activity_stats.xml.flat",
-        "source": "de.katharina.verbesfrancais.app-main-5:/layout/activity_stats.xml"
-    },
-    {
-        "merged": "C:\\Users\\saridza\\.gradle\\daemon\\9.7.1\\de.katharina.verbesfrancais.app-debug-3:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\saridza\\.gradle\\daemon\\9.7.1\\de.katharina.verbesfrancais.app-main-5:\\layout\\activity_main.xml"
+        "merged": "de.katharina.verbesfrancais.app-debug-3:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "de.katharina.verbesfrancais.app-main-5:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
         "merged": "de.katharina.verbesfrancais.app-debug-3:/layout_activity_main.xml.flat",
@@ -28,19 +20,39 @@
         "source": "de.katharina.verbesfrancais.app-main-5:/layout/activity_context_practice.xml"
     },
     {
-        "merged": "C:\\Users\\saridza\\.gradle\\daemon\\9.7.1\\de.katharina.verbesfrancais.app-debug-3:\\layout_activity_context_practice.xml.flat",
-        "source": "C:\\Users\\saridza\\.gradle\\daemon\\9.7.1\\de.katharina.verbesfrancais.app-main-5:\\layout\\activity_context_practice.xml"
+        "merged": "de.katharina.verbesfrancais.app-debug-3:/drawable_bg_lemonde_card.xml.flat",
+        "source": "de.katharina.verbesfrancais.app-main-5:/drawable/bg_lemonde_card.xml"
     },
     {
-        "merged": "C:\\Users\\saridza\\.gradle\\daemon\\9.7.1\\de.katharina.verbesfrancais.app-debug-3:\\layout_activity_verb_list.xml.flat",
-        "source": "C:\\Users\\saridza\\.gradle\\daemon\\9.7.1\\de.katharina.verbesfrancais.app-main-5:\\layout\\activity_verb_list.xml"
+        "merged": "de.katharina.verbesfrancais.app-debug-3:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "de.katharina.verbesfrancais.app-main-5:/drawable/ic_launcher_foreground.xml"
     },
     {
         "merged": "de.katharina.verbesfrancais.app-debug-3:/layout_activity_verb_list.xml.flat",
         "source": "de.katharina.verbesfrancais.app-main-5:/layout/activity_verb_list.xml"
     },
     {
+        "merged": "de.katharina.verbesfrancais.app-debug-3:/drawable_ic_launcher_background.xml.flat",
+        "source": "de.katharina.verbesfrancais.app-main-5:/drawable/ic_launcher_background.xml"
+    },
+    {
         "merged": "de.katharina.verbesfrancais.app-debug-3:/layout_activity_practice.xml.flat",
         "source": "de.katharina.verbesfrancais.app-main-5:/layout/activity_practice.xml"
+    },
+    {
+        "merged": "de.katharina.verbesfrancais.app-debug-3:/layout_activity_stats.xml.flat",
+        "source": "de.katharina.verbesfrancais.app-main-5:/layout/activity_stats.xml"
+    },
+    {
+        "merged": "de.katharina.verbesfrancais.app-debug-3:/menu_main_menu.xml.flat",
+        "source": "de.katharina.verbesfrancais.app-main-5:/menu/main_menu.xml"
+    },
+    {
+        "merged": "de.katharina.verbesfrancais.app-debug-3:/drawable_bg_lemonde_card_accent.xml.flat",
+        "source": "de.katharina.verbesfrancais.app-main-5:/drawable/bg_lemonde_card_accent.xml"
+    },
+    {
+        "merged": "de.katharina.verbesfrancais.app-debug-3:/layout_item_verb_form.xml.flat",
+        "source": "de.katharina.verbesfrancais.app-main-5:/layout/item_verb_form.xml"
     }
 ]
